@@ -4,6 +4,36 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "fables",
+    "name": "Fables",
+    "symbol": "PROLOGUE",
+    "chain": "Robinhood",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential Fables airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Fables-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/fables/",
+    "claimUrl": "https://fables.fi",
+    "difficulty": "Easy",
+    "costToFarm": "Medium",
+    "actions": [
+      "Step 1: Add Robinhood Chain to Your Wallet: Robinhood Wallet supports the chain by default (see our Robinhood Chain guide for setup basics). For MetaMask, Rabby, or another EVM wallet, add Robinhood Chain manually (chain ID 4663, ETH for gas).",
+      "Step 2: Fund Your Wallet With ETH or USDG: You need ETH for gas and either ETH or USDG to provide liquidity. Buy ETH on Bybit and withdraw it to your wallet, then move it onto Robinhood Chain or swap into USDG with the bridge widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 3: Connect Your Wallet to Fables: Open Fables and connect your wallet. Using this link applies a referral, which does not reduce your own points.",
+      "Step 4: Deposit Liquidity Into a Fables Market: Go to the deposit section and choose an eligible market: ETH/USDG: crypto pair with round-the-clock trading SPY/USDG: tokenized S&P 500 ETF GLD/USDG: tokenized gold ETF TSLA/USDG: tokenized Tesla stock Pick a price range, enter your ETH or USDG amount, and confirm the transaction. Other supported tokens work too.",
+      "Step 5: Keep Your Position in Range: Positions earn swap fees, and therefore points, only while the price sits inside your range. Check your position regularly and adjust the range when the price moves out.",
+      "Step 6: Claim Weekly USDG Rewards: Open the rewards panel on Fables each week and claim your USDG. Rewards are based on the swap fees your positions earned that week.",
+      "Step 7: Create Your Referral Link: Once your position is worth at least $100, connect your X account on the Points Board to generate a referral link. You earn 10% of the LP points each invited user earns."
+    ],
+    "telegram": "https://t.me/fablesfi",
+    "discord": "https://discord.gg/QgeEq2rSv7",
+    "website": "https://fables.fi",
+    "x": "https://x.com/fablesfi"
+  },
+  {
+    "id": 2,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -34,7 +64,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -65,7 +95,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -97,7 +127,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -131,7 +161,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -163,7 +193,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -195,7 +225,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -229,7 +259,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -256,7 +286,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -284,7 +314,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/entropyIO"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "beldex",
     "name": "Beldex",
     "symbol": "BDX",
@@ -317,7 +347,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BeldexCoin"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "dualmint",
     "name": "DualMint",
     "symbol": "DMT",
@@ -350,7 +380,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/DualMintRWA"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "gyndore",
     "name": "Gyndore",
     "symbol": "GYND",
@@ -380,7 +410,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Gyndore"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "c8ntinuum",
     "name": "C8ntinuum",
     "symbol": "CTM",
@@ -417,7 +447,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/c8ntinuum"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "amadeus-protocol",
     "name": "Amadeus Protocol",
     "symbol": "AMA",
@@ -450,7 +480,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/ama_protocol"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "neosoul",
     "name": "NeoSoul",
     "symbol": "",
@@ -483,7 +513,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/NeoSoulAI"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "flop-labs",
     "name": "Flop Labs",
     "symbol": "FLOP",
@@ -513,7 +543,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Flop_Labs"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "dow-protocol",
     "name": "Dow Protocol",
     "symbol": "",
@@ -544,34 +574,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://dowprotocol.com",
     "x": "https://twitter.com/dowprotocol"
-  },
-  {
-    "id": 18,
-    "slug": "tbook",
-    "name": "TBook",
-    "symbol": "BOOK",
-    "chain": "Sui",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for the confirmed TBook airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/08/TBook-logo.png.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/tbook/",
-    "claimUrl": "https://engage.tbook.com",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "actions": [
-      "Step 1: Build Your Incentive Passport: Install a Sui wallet first. Slush and Nabox both work across TBook\\u2019s products, and you will want a little SUI for gas. Then open the TBook engagement portal, connect the wallet, and link your X account and Discord. The Passport is the container every score writes into, so an incomplete profile caps everything downstream.",
-      "Step 2: Mint Your WISE Credit Score: Mint your WISE Credit Score from the same portal. It reads your linked wallets and accounts and grades you across four dimensions. Mint early, because the score accrues history and a profile built weeks before a snapshot outweighs one created that day.",
-      "Step 3: Complete Campaigns and Collect SBTs: Work through the active campaigns on the portal. Each issues a soulbound token on completion, and SBT holdings are a named eligibility category. Types rotate weekly: Prediction campaigns, where you commit to an outcome and mint an SBT on resolution X Spaces attendance drops and Engagement Basecamp quests Partner project campaigns run through TBook for other protocols",
-      "Step 4: Fund Your Wallet with USDC: The vault takes USDC on Sui. Bybit lists USDC and supports direct Sui withdrawals, which skips bridging entirely. Already holding USDC elsewhere? Move it across with the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 5: Deposit into the rcUSD Vault: Open the TBook Vault and pick the rcUSD Vault, which routes deposits into the R25 Protocol. Deposits run from 1 USDC to 1 million with no fee, settlement is T+1, and you receive shares that appreciate as yield accrues rather than paying out separately. APY has recently sat above 8%.",
-      "Step 6: Mint a Bookies NFT: Bookies NFTs live on Sui at TBook\\u2019s NFT page. Holding one raises your Wealth Score and puts you in the airdrop category reserved for early supporters, the most direct eligibility upgrade here."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "discord": "https://discord.gg/tbook",
-    "website": "https://tbook.com",
-    "x": "https://x.com/realtbook"
   }
 ];
