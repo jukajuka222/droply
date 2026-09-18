@@ -4,6 +4,36 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "baibai",
+    "name": "BaiBai",
+    "symbol": "",
+    "chain": "Base",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential BaiBai airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/BaiBai-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/baibai/",
+    "claimUrl": "https://app.baibai.cx",
+    "difficulty": "Easy",
+    "costToFarm": "Medium",
+    "actions": [
+      "Step 1: Visit the BaiBai App: Go to the BaiBai app and click \"Connect Wallet.\" Switch your wallet to the Base network if it isn\\u2019t there already.",
+      "Step 2: Fund Your Wallet With USDC or ETH on Base: You need USDC or ETH on Base to trade. You can buy either asset on Bybit and withdraw directly to Base. Holding funds on another chain? Move them over with the bridge widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 3: Make Your First Swap: Pick the token you want to sell and the one you want to buy, enter an amount, and review the quote. Click \"Trade,\" approve the token if prompted, and sign. No gas is needed.",
+      "Step 4: Trade Regularly to Build Points: Points are based on trading volume and activity. Spread trades across different days and token pairs instead of placing one large swap, and check the app for any active multipliers before you trade.",
+      "Step 5: Trade Tokenized Stocks for Boosted Points: If tokenized stocks are available in your jurisdiction, swap into them on BaiBai. These trades have earned a temporary 2x points boost, so confirm the multiplier is still running first.",
+      "Step 6: Share Your Rekt Receipt: Visit the BaiBai Rekt page, generate your receipt, and share it to collect bonus points.",
+      "Step 7: Invite Friends With Your Referral Link: Open the Points page and copy your referral link. You earn 10% of the points your referrals generate, and they receive a 10% points boost."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "discord": "https://discord.gg/UNnSJjWRBq",
+    "website": "https://baibai.cx",
+    "x": "https://x.com/baibai_cx"
+  },
+  {
+    "id": 2,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -33,7 +63,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -64,7 +94,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -95,7 +125,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -127,7 +157,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -161,7 +191,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -193,7 +223,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -225,7 +255,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -259,7 +289,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -286,7 +316,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -314,7 +344,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/entropyIO"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "beldex",
     "name": "Beldex",
     "symbol": "BDX",
@@ -347,7 +377,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BeldexCoin"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "dualmint",
     "name": "DualMint",
     "symbol": "DMT",
@@ -380,7 +410,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/DualMintRWA"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "gyndore",
     "name": "Gyndore",
     "symbol": "GYND",
@@ -410,7 +440,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Gyndore"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "c8ntinuum",
     "name": "C8ntinuum",
     "symbol": "CTM",
@@ -447,7 +477,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/c8ntinuum"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "amadeus-protocol",
     "name": "Amadeus Protocol",
     "symbol": "AMA",
@@ -480,7 +510,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/ama_protocol"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "neosoul",
     "name": "NeoSoul",
     "symbol": "",
@@ -513,7 +543,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/NeoSoulAI"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "flop-labs",
     "name": "Flop Labs",
     "symbol": "FLOP",
@@ -541,38 +571,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://flop.finance",
     "x": "https://x.com/Flop_Labs"
-  },
-  {
-    "id": 18,
-    "slug": "dow-protocol",
-    "name": "Dow Protocol",
-    "symbol": "",
-    "chain": "bsc,sui",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Dow Protocol airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/08/Dow-Protocol-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/dow-protocol/",
-    "claimUrl": "https://app.dowprotocol.com",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Telegram",
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Connect Your Wallet to the Dow Points Dashboard: Open the Dow Protocol points page and connect a wallet. BNB Chain is the primary network for XP tracking. BNB Chain: MetaMask, Rabby or any EVM wallet works for the main dashboard Sui: bind a Sui wallet too if you plan to use the Volo vault",
-      "Step 2: Connect Your X Account: Link X from the quest list for 50 XP. This gates everything else, since both the posting quest and the referral tier need a connected X account.",
-      "Step 3: Post About Dow Protocol and Submit It for Review: Publish a post about Dow on X, then submit the link through the dashboard for approval. That pays 50 XP and unlocks referrals. Write something specific about the vault or the receivables model, since reviewed quests reject copy-paste filler.",
-      "Step 4: Link Telegram and Discord: Connect both accounts from the quest list for 50 XP each. One-time quests, about a minute of work.",
-      "Step 5: Deposit Stablecoins Into an Open Vault: When a subscription window opens on the Dow Protocol app, deposit stablecoins into the Dow E-Commerce Financing Vault on BNB Chain or Dowsure Stable #1 on Sui. Vaults run a 90-day term, so plan around the lock first. You can buy stablecoins on Bybit and withdraw them, or move funds from another chain with the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 6: Share Your Referral Link: Once your post clears review, the dashboard generates an invite link. Each verified signup adds Referral XP, and referrals are the only quest that scales past a one-time payout.",
-      "Step 7: Track Task XP and Referral XP: Your balance splits into Task XP, Referral XP and a running total. Check after each quest to confirm points registered, since social verifications sometimes need a refresh."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://dowprotocol.com",
-    "x": "https://twitter.com/dowprotocol"
   }
 ];
