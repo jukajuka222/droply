@@ -4,6 +4,102 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "memebook",
+    "name": "Memebook",
+    "symbol": "MBK",
+    "chain": "Solana",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed Memebook airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/memebook-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/memebook/",
+    "claimUrl": "https://mint.memebook.app",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram",
+      "Twitter / X",
+      "Phone"
+    ],
+    "actions": [
+      "Step 1: Fund a Solana Wallet: Install Phantom or Solflare and keep a small amount of SOL in it for network fees, tips, and any paid Pass tier. You can buy SOL on Bybit and withdraw straight to your Solana address.",
+      "Step 2: Connect Your Wallet to the Mint Page: Open the Memebook mint page, connect the wallet you just funded, and sign the verification message. Use this same wallet throughout, since XP is tied to the address rather than a username.",
+      "Step 3: Verify Your X and Telegram Accounts: Link both accounts on the mint page. Verification is required before minting and includes following the Memebook X account and joining the Telegram channel.",
+      "Step 4: Mint Your Memebook Pass: Bronze is free and gets you into the app. Paid tiers raise your XP multiplier and daily limits, which compounds across every post. The Pass is soulbound, so it stays attached to the minting wallet and cannot be resold.",
+      "Step 5: Install the Android App: Download Memebook from Google Play and sign in with the wallet holding your Pass. There is no iOS build, so an Android device is required for the in-app half of the campaign.",
+      "Step 6: Post and Engage Daily: Publish photos or reels, like and comment on other creators, and complete the daily check-in. Spreading activity across days earns more than dumping the same volume into one session.",
+      "Step 7: Tip Creators and Share Your Invite Code: Send SOL tips to posts you like, which is an on-chain action and counts toward your activity. Then share your invite link from the app to earn XP when someone you referred mints a Pass."
+    ],
+    "telegram": "https://t.me/memebookapp",
+    "website": "https://memebook.app",
+    "x": "https://x.com/memebookapp"
+  },
+  {
+    "id": 2,
+    "slug": "kryvora-network",
+    "name": "Kryvora Network",
+    "symbol": "KRV",
+    "chain": "OwnChain",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed Kryvora Network airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Kryvora-Network-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/kryvora-network/",
+    "claimUrl": "https://tasks.kryvora.network",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
+    "actions": [
+      "Step 1: Connect Your Wallet to the Tasks Portal: Open the Kryvora Quests & Points Portal and connect an EVM wallet. Add Kryvora Network to your wallet when prompted (Chain ID 73829164).",
+      "Step 2: Claim a Daily Check-In: Check in on the portal for +50 PTS. Daily check-ins build your streak, so return every day.",
+      "Step 3: Link Your Socials and Join Discord: Connect your X and Discord accounts, then complete the social quests: Follow, repost, and quote @KryvoraNetwork on X Join the Kryvora Discord server For tips on earning server roles, see our Discord role farming guide.",
+      "Step 4: Get Testnet ETH: Request test ETH from the Kryvora faucet. You can also bridge Sepolia ETH to the Kryvora testnet.",
+      "Step 5: Complete Onchain Tasks: Go to the Kryvora dApps page and work through the onchain quests: Swap tokens Add liquidity to a pool Supply assets to the lending market Deploy a smart contract",
+      "Step 6: Mint a Testnet NFT: Visit the Kryvora NFT page and mint a Nuke Genesis or Verdant Core NFT to complete the NFT quest.",
+      "Step 7: Invite Friends: Share your referral link from the portal. Three active invites earn +200 PTS.",
+      "Step 8: Run a Genesis Node (Optional): This is the only paid step. A Genesis Node Key costs about 10 USDC on Arbitrum and can be minted at the Kryvora Node page. After minting, self-host the node or use the 1-click cloud option on Node Hub. You can buy USDC on Bybit. If your funds sit on another chain, move them to Arbitrum with the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab"
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "website": "https://kryvora.network",
+    "x": "https://x.com/KryvoraNetwork"
+  },
+  {
+    "id": 3,
+    "slug": "vibe-vibe",
+    "name": "Vibe Vibe",
+    "symbol": "",
+    "chain": "Robinhood",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed Vibe Vibe airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Vibe-Vibe-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/vibe-vibe/",
+    "claimUrl": "https://testnet.vibevibe.fun",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram"
+    ],
+    "actions": [
+      "Step 1: Claim Test ETH from the Faucet: Open the Robinhood Chain Testnet Faucet, enter your wallet address, and request test ETH. You need it for gas and for trading on the testnet.",
+      "Step 2: Connect Your Wallet to Vibe Vibe: Go to the Vibe Vibe testnet and connect your EVM wallet. If your wallet asks you to add or switch to Robinhood Chain Testnet, approve it.",
+      "Step 3: Create a Testnet Token: Click the launch option and fill in the details: Token name and ticker Token image (required) A short description of the project Put some effort into it, because the team says quality launches count.",
+      "Step 4: Buy and Sell Testnet Tokens: Trade tokens launched by other users. Buy early on the bonding curve and sell into strength, since high PnL is one of the listed eligibility criteria.",
+      "Step 5: Join the Telegram Raiding Channel: Join the Vibe Vibe Telegram and take part in raids on X. You need a verified X account, and the top 250 raiders qualify for a free Vibe Vibers NFT.",
+      "Step 6: Apply for a Vibe Vibers Whitelist: Follow the Vibe Vibers page for mint updates. Creators who make memes or other content can apply for collab spots when the form opens, with free mint whitelists awarded based on quality."
+    ],
+    "telegram": "https://t.me/vibevibefun",
+    "discord": "https://discord.gg/vibevibebuilders",
+    "website": "https://testnet.vibevibe.fun",
+    "x": "https://x.com/vibevibefun"
+  },
+  {
+    "id": 4,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -33,7 +129,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 2,
+    "id": 5,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -63,7 +159,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 3,
+    "id": 6,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -94,7 +190,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 4,
+    "id": 7,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -125,7 +221,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 5,
+    "id": 8,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -157,7 +253,38 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 6,
+    "id": 9,
+    "slug": "acepyr",
+    "name": "Acepyr",
+    "symbol": "$ACEPYR",
+    "chain": "Base",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential Acepyr airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Acepyr-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/acepyr/",
+    "claimUrl": "https://acepyr.com",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
+    "actions": [
+      "Step 1: Create Your Acepyr Account: Sign up at Acepyr with an email and password, entering referral code PW34SD3C2J during registration. Codes only count when applied at signup. Verify your email to activate the account.",
+      "Step 2: Accept the Legal Documents and Complete Onboarding: First login walks you through the Terms of Service, Privacy Policy and Testnet Points Notice, then the onboarding survey. Those steps plus your first sign-in pay 300 testnet $ACEPYR.",
+      "Step 3: Link a Wallet You Control: In Settings, link a wallet by signing a message; a pasted address does not qualify. One address links to one account permanently, and linking pays 500 testnet $ACEPYR.",
+      "Step 4: Join the Mainnet Waitlist: The most productive click on the platform. Joining needs a proven wallet holding at least the current minimum, now $10, read live across Base, Ethereum, Arbitrum, Optimism, Polygon and BSC. Native coins and major stablecoins count, and nothing is sent to Acepyr, so balances you already hold for Base, Arbitrum or Optimism farming clear the check. Joining pays 1,000 testnet $ACEPYR, puts the first 10,000 qualifying accounts in line for $5 at launch, and activates whoever referred you. Short of th\\u2026",
+      "Step 5: Trade the Live Up or Down Markets: Take Up or Down on a five-minute window and let the price feed settle it. Three first-time achievements sit here: Open your first position: 250 testnet $ACEPYR Place your first limit order: 250 testnet $ACEPYR Close your first profitable position: 300 testnet $ACEPYR",
+      "Step 6: Enter the Weekly Tournament: Entry is free and individual, with no ticket and no minimum balance. One settled trade that week makes you valid and earns a share of the 10,000 testnet $ACEPYR pool.",
+      "Step 7: Build a Sign-In Streak: The streak pays at five rungs: 50 at two days, 100 at three, 300 at seven, 500 at fourteen and 1,000 at thirty. Each rung banks permanently.",
+      "Step 8: Generate Your Referral Code: Open Profile, then Referrals. Codes reset every month and points do not carry over."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "discord": "https://discord.gg/acepyr",
+    "website": "https://acepyr.com",
+    "x": "https://x.com/acepyr"
+  },
+  {
+    "id": 10,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -191,7 +318,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 7,
+    "id": 11,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -223,7 +350,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 8,
+    "id": 12,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -255,7 +382,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 9,
+    "id": 13,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -289,7 +416,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 10,
+    "id": 14,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -316,7 +443,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 11,
+    "id": 15,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -344,7 +471,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/entropyIO"
   },
   {
-    "id": 12,
+    "id": 16,
     "slug": "beldex",
     "name": "Beldex",
     "symbol": "BDX",
@@ -377,7 +504,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BeldexCoin"
   },
   {
-    "id": 13,
+    "id": 17,
     "slug": "dualmint",
     "name": "DualMint",
     "symbol": "DMT",
@@ -410,7 +537,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/DualMintRWA"
   },
   {
-    "id": 14,
+    "id": 18,
     "slug": "gyndore",
     "name": "Gyndore",
     "symbol": "GYND",
@@ -438,138 +565,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/gyndore",
     "website": "https://gyndore.com",
     "x": "https://x.com/Gyndore"
-  },
-  {
-    "id": 15,
-    "slug": "c8ntinuum",
-    "name": "C8ntinuum",
-    "symbol": "CTM",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential C8ntinuum airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/C8ntinuum-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/c8ntinuum/",
-    "claimUrl": "https://app.c8ntinuum.com",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "requirements": [
-      "Telegram",
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Create Your C8ntinuum Account: Open the C8ntinuum dashboard and sign in with email, a wallet or a social account. p8ints accrue to the account itself, not to any single wallet.",
-      "Step 2: Claim Your Legacy p8ints: Waitlist entries, and OG status campaign entries are credited in the dashboard.",
-      "Step 3: Complete the Social Tasks: Connect and verify your X, Discord and Telegram accounts, then follow and join the official channels. Each task pays once at a fixed rate, and the verified X follow counts toward qualification.",
-      "Step 4: Check In Daily and Spin the Wheel: The check-in runs through days 1 to 7 of Season 0 and stands in for a qualifying day if you have not bought $CTM yet. The wheel gives one spin per UTC day and never subtracts.",
-      "Step 5: Buy and Hold $CTM Across Chains: Holding is scored per chain, not on a combined balance, so positions on Ethereum, BNB Chain and Solana each earn separately and stack. A chain needs at least 5 CTM before it scores. Buy ETH, BNB or SOL on Bybit, withdraw to your own wallet, then use the widget below to move funds onto the chain you plan to hold on. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 6: Supply $CTM Liquidity: Pooled positions are scored daily on their $CTM side and outweigh passive holding. Each token counts in one category only, so $CTM in a pool stops scoring as holding.",
-      "Step 7: Verify NFT Ownership for Partner Drops: Selected partner collections pay a one-time credit across three tiers, once per collection. Verify holdings through the official C8ntinuum Discord to claim the roles and matching p8ints.",
-      "Step 8: Qualify Your Account: Qualification needs two linked socials (one being the verified X follow), one completed capital or cross-chain action, and no fraud flag. Email does not count as a social. Unqualified accounts still earn, but cannot spend p8ints or appear on the leaderboard.",
-      "Step 9: Share Your Referral Link: The financial leg is live and pays a 15% referral share. The p8ints leg opens with Phase 2, covers direct referrals only, and pays when someone you referred qualifies and stays active.",
-      "$CTM holding: average balance, scored daily per chain: The Rewards page ships with the SuperApp at the start of Season 1. Until then p8ints accumulate in the dashboard with nothing to spend them on. Each reward direction is priced before its window opens."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "discord": "https://discord.gg/c8ntinuum",
-    "website": "https://c8ntinuum.com",
-    "x": "https://x.com/c8ntinuum"
-  },
-  {
-    "id": 16,
-    "slug": "amadeus-protocol",
-    "name": "Amadeus Protocol",
-    "symbol": "AMA",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Amadeus Protocol airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/08/Amadeus-Protocol-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/amadeus-protocol/",
-    "claimUrl": "https://amahub.ama.one",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Connect a Wallet: Open the AMA Hub quests page and connect an EVM wallet such as MetaMask, Rabby, or Trust. This is the address your PRIME Points are paid to.",
-      "Step 2: Create Your Amadeus Wallet: Install the Amadeus Wallet browser extension and set it up. This wallet holds $AMA and runs your sealed agents, and creating it is one of the larger one-off point rewards in the season.",
-      "Step 3: Link Both Wallets: Sign once from each wallet to connect them. The link tells the season that your chain address and Amadeus account belong to the same person, and quests stay locked until both are added.",
-      "Step 4: Complete the Daily Check-In: Return each day and claim the check-in on the quests page. Daily points reset and do not carry over, so steady visits matter more than any single session.",
-      "Step 5: Build and Deploy an Agent: Create an agent on AMA Hub and put it to work. These build quests are read directly from the chain, so nothing needs to be submitted. To earn across more of them: Add a skill to your agent so it can act Run an agent trade or swap on the network Claim a username for your account",
-      "Step 6: Finish the Social Quests: Complete the social tasks, which the campaign verifies within a few minutes: Follow Amadeus on X Join the Amadeus Discord Engage with the pinned launch post Record a short video explainer for the largest social reward",
-      "Step 7: Invite Referrals: Share your referral link from the quests page. You earn 20% of the PRIME Points your invitees collect, which compounds as they stay active.",
-      "Keep Farming Season 1 Before the Snapshot: Sign in to AMA Hub with the account holding your Season 1 progress Build and deploy agents on the hub Trade and execute through AMA Hub so activity registers on-chain Clear repeatable quests daily through the closing weeks Points are verified automatically from wallet and account activity, so nothing needs to be submitted by hand."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://ama.one",
-    "x": "https://x.com/ama_protocol"
-  },
-  {
-    "id": 17,
-    "slug": "neosoul",
-    "name": "NeoSoul",
-    "symbol": "",
-    "chain": "bsc",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential NeoSoul airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/08/NeoSoul-logo.png.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/neosoul/",
-    "claimUrl": "https://event.neosoul.ai",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "requirements": [
-      "Telegram",
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Connect Your Wallet on the NeoSoul Questboard: Go to the NeoSoul Questboard and connect an EVM wallet. Complete the Newbie Tasks to bind your X account, follow the official profile, and join the Telegram and Discord groups. These one-time tasks open up the rest of the point system.",
-      "Step 2: Create an AI Agent on EvoEvo: Open EvoEvo, create your agent, and bind its ERC-8004 identity on BNB Smart Chain. This registration needs a small amount of BNB for gas. You can buy BNB on Bybit and withdraw it to BNB Chain, or move funds you already hold using the widget below to bridge or swap into BNB. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 3: Train Your Agent With Predictions: Have your agent predict real-world events, record its reasoning, and assign a confidence score. Once an outcome settles, review the result, keep or reject the reasoning, and add the lesson to your agent\\u2019s memory. Consistent prediction and review activity is the main PTS driver on EvoEvo.",
-      "Step 4: Complete the Daily Questboard Tasks: Return to the Questboard for the repeatable daily tasks. They reset on a day-based cycle, so checking in regularly builds PTS steadily over time.",
-      "Step 5: Finish the NeoSoul Quests on Galxe: NeoSoul runs a separate quest campaign on Galxe. Open the NeoSoul quest page and complete whatever tasks are active there to earn extra entries and points.",
-      "Step 6: Invite Friends With Your Referral Link: Share your referral link from the Questboard. You earn 100 PTS per friend who completes the Newbie Tasks, plus passive PTS from their ongoing activity, and reaching five invites raises your base rate."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "discord": "https://discord.gg/neosoul",
-    "website": "https://neosoul.ai",
-    "x": "https://x.com/NeoSoulAI"
-  },
-  {
-    "id": 18,
-    "slug": "flop-labs",
-    "name": "Flop Labs",
-    "symbol": "FLOP",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for the confirmed Flop Labs airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/08/Flop-Labs-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/flop-labs/",
-    "claimUrl": "https://flop.finance",
-    "difficulty": "Beginner",
-    "costToFarm": "Free",
-    "requirements": [
-      "Email"
-    ],
-    "actions": [
-      "Step 1: Follow Flop Labs on X: Follow the official Flop Labs X account and turn on notifications. This is the only requirement the project has published for eligibility, and it is where testnet dates will land first.",
-      "Step 2: Follow Arthur Hayes for early terms: Follow CryptoHayes and subscribe to his Substack. His essays have carried more detail than the project account, including the 20% testnet figure, and more are coming. Terms tend to surface there first.",
-      "Step 3: Apply for a network role: Open the Flop website and submit the form matching what you can deliver. Three of the four roles are open: GPU provider or miner: for anyone with hardware that can run inference. Miners earn block rewards plus payment per job. No minimum specifications have been published, so treat any circulating hardware requirement as unverified. Validator: confirms miners completed their assigned work and stores agent memory. Suited to people comfortable running nodes. KOL or creator: the lowest barrier of \\u2026",
-      "Step 4: Start publishing $FLOP content now: If you took the creator route, post before the program formally opens. There is no leaderboard yet, and if scoring ends up mindshare-based it will likely be applied retroactively. Stay on theme: decentralized inference, GPU economics, Hayes\\u2019 argument that the AI buildout is a debt problem rather than a technology one.",
-      "Step 5: Get ready for the Q4 testnet: The 20% allocation is earned on the testnet, which has not opened. Hold off on configuring a wallet for a specific network, because Flop Labs has not named the chain. Watch the official account and be ready to onboard when it goes live."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://flop.finance",
-    "x": "https://x.com/Flop_Labs"
   }
 ];
