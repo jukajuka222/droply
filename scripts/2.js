@@ -93,44 +93,6 @@ const cleanText = (value) =>
       .trim()
   );
 
-// Same as cleanText, but turns <a href="URL">label</a> into a
-// "[label](URL)" markdown-style link instead of throwing the href
-// away. Used for guide-step text so the UI can render real,
-// clickable links instead of plain text.
-const cleanTextKeepLinks = (value) => {
-  const withLinks = String(value || "").replace(
-    /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi,
-    (_, href, inner) => {
-      const label = inner
-        .replace(/<[^>]+>/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-
-      return label ? `[${label}](${href})` : "";
-    }
-  );
-
-  return decode(
-    withLinks
-      .replace(/<[^>]+>/g, " ")
-      .replace(/\s+/g, " ")
-      .trim()
-  );
-};
-
-// Guide steps are stored as "title\u2029body" (a paragraph-separator
-// character, not part of any real title/body) so the UI can split
-// them apart safely — a plain ": " would break on any title or body
-// that itself contains a colon.
-const STEP_SEP = "\u2029";
-
-const joinStep = (title, body) => {
-  if (!title) return body || "";
-  if (!body || body === title) return title;
-
-  return `${title}${STEP_SEP}${body}`;
-};
-
 const normalizeUrl = (url) => {
   if (!url) return "";
 
@@ -418,7 +380,6 @@ async function airdropsIo() {
 
   const unescapeJson = (value) =>
     String(value)
-      .replace(/\\\//g, "/")
       .replace(/\\"/g, '"')
       .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) =>
         String.fromCharCode(parseInt(hex, 16))
@@ -433,67 +394,15 @@ async function airdropsIo() {
     let match;
 
     while ((match = re.exec(html))) {
-      // The HowToStep JSON-LD is usually plain text (no <a> tags),
-      // but run it through the link-preserving cleaner anyway in
-      // case a page ever embeds one.
-      const name = cleanTextKeepLinks(unescapeJson(match[1]));
-      const text = cleanTextKeepLinks(unescapeJson(match[2]));
+      const name = cleanText(unescapeJson(match[1]));
+      const text = cleanText(unescapeJson(match[2]));
 
       if (name) {
-        steps.push(joinStep(name, text));
+        steps.push(text && text !== name ? `${name}: ${text}` : name);
       }
     }
 
     return steps;
-  };
-
-  // The rendered page's own step widget (h3.is-step-item + a sibling
-  // div.step-body) has the real prose *with* its <a href> links —
-  // the JSON-LD HowToStep block above is only a stripped-down copy
-  // for search engines and never carries links. Prefer this when
-  // it's there; extractGuideSteps stays as a fallback for pages that
-  // don't have the widget.
-  const stripEmbeddedWidgets = (html) =>
-    // Interactive widgets dropped into a step's body (the bridge
-    // swap card, etc.) come as their own "lifi-bridge" div; cut the
-    // body off right before it instead of turning its marketing
-    // copy into part of the guide text.
-    html.split(/<div\s+class=["']lifi-bridge["']/i)[0];
-
-  const extractDomGuideSteps = (html) => {
-    const section = html.match(
-      /<section[^>]*class=["'][^"']*adio-sec--howto[^"']*["'][^>]*>([\s\S]*?)<\/section>/i
-    )?.[1];
-
-    if (!section) return [];
-
-    // Step headers and their bodies are siblings, not nested, so
-    // splitting on each header turns the section into one chunk per
-    // step: "<title stuff>...<div class="step-body">...<next step or end>".
-    const chunks = section.split(
-      /<h3[^>]*class=["'][^"']*is-step-item[^"']*["'][^>]*>/i
-    );
-
-    return chunks
-      .slice(1)
-      .map((chunk) => {
-        const title = cleanText(
-          chunk.match(
-            /<span[^>]*class=["'][^"']*adio-step-title[^"']*["'][^>]*>([\s\S]*?)<\/span>/i
-          )?.[1]
-        );
-
-        const rawBody = chunk.match(
-          /<div[^>]*class=["'][^"']*step-body[^"']*["'][^>]*>([\s\S]*)$/i
-        )?.[1];
-
-        const body = rawBody
-          ? cleanTextKeepLinks(stripEmbeddedWidgets(rawBody))
-          : "";
-
-        return joinStep(title, body);
-      })
-      .filter(Boolean);
   };
 
   const extractSocial = (html, type) => {
@@ -688,10 +597,7 @@ async function airdropsIo() {
         project.requirements = requirements;
       }
 
-      // Prefer the real on-page steps (has actual <a href> links);
-      // fall back to the JSON-LD copy for pages without that widget.
-      const domActions = extractDomGuideSteps(page);
-      const actions = domActions.length ? domActions : extractGuideSteps(page);
+      const actions = extractGuideSteps(page);
 
       if (actions.length) {
         project.actions = actions;
@@ -741,9 +647,6 @@ async function airdropsIo() {
       // actively ongoing — the confirmed flag wins over timing.
       if (isConfirmed) {
         project.status = "Confirmed";
-        if (networkStatus === "ongoing") {
-          project.isLive = true;
-        }
       } else if (isSpeculative) {
         project.status = "Potential";
       } else if (networkStatus === "ongoing") {
@@ -1093,92 +996,6 @@ async function airdropAlert() {
     Accept: "text/html,application/xhtml+xml",
   };
 
-  const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
-  const fetchPage = async (url) => {
-    try {
-      const r = await fetch(url, { headers });
-
-      if (!r.ok) {
-        console.log(`AirdropAlert: ${r.status} ${url}`);
-        return "";
-      }
-
-      return await r.text();
-    } catch {
-      console.log(`AirdropAlert: fetch failed ${url}`);
-      return "";
-    }
-  };
-
-  const unescapeJson = (value) =>
-    String(value)
-      .replace(/\\\//g, "/")
-      .replace(/\\"/g, '"')
-      .replace(/\\u([0-9a-fA-F]{4})/g, (_, hex) =>
-        String.fromCharCode(parseInt(hex, 16))
-      );
-
-  // Project pages show two "btn btn-project-website" buttons
-  // (Website + Whitepaper) sharing the same class, so we pick the
-  // one whose own label says "Website".
-  const extractAAWebsite = (html) => {
-    const buttons = [
-      ...html.matchAll(
-        /<a\s+href=["']([^"']+)["'][^>]*class=["']btn btn-project-website["'][^>]*>\s*([^<]+?)\s*<\/a>/gi
-      ),
-    ];
-
-    const websiteButton = buttons.find(
-      ([, , label]) => cleanText(label).toLowerCase() === "website"
-    );
-
-    return websiteButton?.[1] || "";
-  };
-
-  // The real project description lives in the page's own Yoast
-  // "WebPage" schema block, not the /farm/ listing footer text.
-  const extractAADescription = (html) => {
-    const match = html.match(
-      /"@type":"WebPage"[\s\S]*?"description":"([^"]+)"/i
-    );
-
-    return cleanText(unescapeJson(match?.[1] || ""));
-  };
-
-  const extractAASocial = (html, iconClass) => {
-    const re = new RegExp(
-      `<a\\s+href=["'](https?:\\/\\/[^"']+)["'][^>]*class=["']social-item["'][^>]*>\\s*<span[^>]*class=["']${iconClass}["']`,
-      "i"
-    );
-
-    return re.exec(html)?.[1] || "";
-  };
-
-  const extractAAGuideSteps = (html) => {
-    const stepsBlock = html.match(
-      /<ol[^>]*class=["']step-list["'][^>]*>([\s\S]*?)<\/ol>/i
-    )?.[1];
-
-    if (!stepsBlock) return [];
-
-    return [...stepsBlock.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)]
-      .map(([, block]) => {
-        const title = cleanText(
-          block.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i)?.[1]
-        );
-        // These <li> blocks have real <a href> links in the body
-        // (Galxe campaigns, Discord invites, etc.) — keep them as
-        // "[label](url)" instead of stripping them.
-        const body = cleanTextKeepLinks(
-          block.replace(/<h3[^>]*>[\s\S]*?<\/h3>/i, "")
-        );
-
-        return joinStep(title, body);
-      })
-      .filter(Boolean);
-  };
-
   try {
     const r = await fetch(AA_URL, { headers });
 
@@ -1190,89 +1007,6 @@ async function airdropAlert() {
     const projects = parseAirdropAlert(await r.text());
 
     console.log(`AirdropAlert: found ${projects.length} project cards`);
-
-    // ------------------------------------------------------------
-    // Visit each project's own page for the real website/description
-    // instead of settling for the /farm/ listing card.
-    // ------------------------------------------------------------
-
-    let cursor = 0;
-
-    const worker = async () => {
-      while (true) {
-        const index = cursor++;
-
-        if (index >= projects.length) return;
-
-        const project = projects[index];
-
-        console.log(
-          `AirdropAlert: parsing ${index + 1}/${projects.length} ${project.name}`
-        );
-
-        const page = await fetchPage(project.sourceUrl);
-
-        if (!page) {
-          await sleep(200);
-          continue;
-        }
-
-        // ---- WEBSITE / CLAIM URL ----
-        // sourceUrl (the AirdropAlert page, for "Source:" / "View
-        // calendar") stays untouched; only claimUrl moves off-site.
-
-        const website = extractAAWebsite(page);
-
-        if (website && !isBadWebsite(website)) {
-          project.website = normalizeUrl(website);
-          project.claimUrl = project.website;
-        }
-
-        // ---- DESCRIPTION ----
-
-        const description = extractAADescription(page);
-
-        if (description) {
-          project.description = description.slice(0, 500);
-        }
-
-        // ---- SOCIALS ----
-
-        const telegram = extractAASocial(page, "telegram-icon");
-
-        if (telegram) {
-          project.telegram = telegram;
-        }
-
-        const discordUrl = extractAASocial(page, "discord-icon");
-
-        if (discordUrl) {
-          project.discord = discordUrl;
-        }
-
-        const xUrl = extractAASocial(page, "twitter-icon");
-
-        if (xUrl) {
-          project.x = xUrl;
-        }
-
-        // ---- GUIDE STEPS ----
-
-        const actions = extractAAGuideSteps(page);
-
-        if (actions.length) {
-          project.actions = actions;
-        }
-
-        await sleep(200);
-      }
-    };
-
-    const workers = Array.from({ length: Math.min(5, projects.length) }, () =>
-      worker()
-    );
-
-    await Promise.all(workers);
 
     return projects;
   } catch (error) {
@@ -1370,4 +1104,3 @@ if (
 ) {
   sync();
 }
-

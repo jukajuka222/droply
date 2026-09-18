@@ -447,55 +447,6 @@ async function airdropsIo() {
     return steps;
   };
 
-  // The rendered page's own step widget (h3.is-step-item + a sibling
-  // div.step-body) has the real prose *with* its <a href> links —
-  // the JSON-LD HowToStep block above is only a stripped-down copy
-  // for search engines and never carries links. Prefer this when
-  // it's there; extractGuideSteps stays as a fallback for pages that
-  // don't have the widget.
-  const stripEmbeddedWidgets = (html) =>
-    // Interactive widgets dropped into a step's body (the bridge
-    // swap card, etc.) come as their own "lifi-bridge" div; cut the
-    // body off right before it instead of turning its marketing
-    // copy into part of the guide text.
-    html.split(/<div\s+class=["']lifi-bridge["']/i)[0];
-
-  const extractDomGuideSteps = (html) => {
-    const section = html.match(
-      /<section[^>]*class=["'][^"']*adio-sec--howto[^"']*["'][^>]*>([\s\S]*?)<\/section>/i
-    )?.[1];
-
-    if (!section) return [];
-
-    // Step headers and their bodies are siblings, not nested, so
-    // splitting on each header turns the section into one chunk per
-    // step: "<title stuff>...<div class="step-body">...<next step or end>".
-    const chunks = section.split(
-      /<h3[^>]*class=["'][^"']*is-step-item[^"']*["'][^>]*>/i
-    );
-
-    return chunks
-      .slice(1)
-      .map((chunk) => {
-        const title = cleanText(
-          chunk.match(
-            /<span[^>]*class=["'][^"']*adio-step-title[^"']*["'][^>]*>([\s\S]*?)<\/span>/i
-          )?.[1]
-        );
-
-        const rawBody = chunk.match(
-          /<div[^>]*class=["'][^"']*step-body[^"']*["'][^>]*>([\s\S]*)$/i
-        )?.[1];
-
-        const body = rawBody
-          ? cleanTextKeepLinks(stripEmbeddedWidgets(rawBody))
-          : "";
-
-        return joinStep(title, body);
-      })
-      .filter(Boolean);
-  };
-
   const extractSocial = (html, type) => {
     let pattern;
 
@@ -688,10 +639,7 @@ async function airdropsIo() {
         project.requirements = requirements;
       }
 
-      // Prefer the real on-page steps (has actual <a href> links);
-      // fall back to the JSON-LD copy for pages without that widget.
-      const domActions = extractDomGuideSteps(page);
-      const actions = domActions.length ? domActions : extractGuideSteps(page);
+      const actions = extractGuideSteps(page);
 
       if (actions.length) {
         project.actions = actions;
@@ -741,9 +689,6 @@ async function airdropsIo() {
       // actively ongoing — the confirmed flag wins over timing.
       if (isConfirmed) {
         project.status = "Confirmed";
-        if (networkStatus === "ongoing") {
-          project.isLive = true;
-        }
       } else if (isSpeculative) {
         project.status = "Potential";
       } else if (networkStatus === "ongoing") {
@@ -1370,4 +1315,3 @@ if (
 ) {
   sync();
 }
-

@@ -1,3 +1,4 @@
 export default function DroplyMark() {
-  return <span className="brand-mark" aria-hidden="true"><span /></span>;
+  // eslint-disable-next-line @next/next/no-img-element
+  return <img src="/droplet-logo.png" alt="" className="brand-mark-img" aria-hidden="true" />;
 }

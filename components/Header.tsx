@@ -24,6 +24,7 @@ export default function Header() {
           </div>
         </div>
         <Link href="/calendar">Calendar</Link>
+        <Link href="/favorites">Favorites</Link>
         <Link href="/airdrops">Projects</Link>
         <Link href="/airdrops">Resources</Link>
       </nav>

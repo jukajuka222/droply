@@ -4,11 +4,12 @@ export type Project = {
   id: number;
   slug: string;
   name: string;
-  symbol: string;
+  symbol?: string;
+  isLive?: boolean;
   chain: string;
   event: "Snapshot" | "TGE" | "Claim" | "Airdrop" | "Points";
   status: "Potential" | "Upcoming" | "Live" | "Confirmed";
-  date: string;
+  date?: string;
   description: string;
   funding?: string;
   website?: string;
@@ -41,3 +42,8 @@ const demoProjects: Project[] = [
 ];
 
 export const projects: Project[] = generatedProjects.length ? generatedProjects : demoProjects;
+
+
+
+
+
