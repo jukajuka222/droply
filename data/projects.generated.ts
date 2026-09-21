@@ -75,7 +75,7 @@ export const generatedProjects: Project[] = [
     "event": "Airdrop",
     "status": "Live",
     "date": "",
-    "description": "Looking for the confirmed Vibe Vibe airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "description": "Looking to claim the latest Vibe Vibe airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
     "logo": "https://airdrops.io/wp-content/uploads/2026/09/Vibe-Vibe-logo.jpg.webp",
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/vibe-vibe/",
