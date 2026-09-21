@@ -4,6 +4,31 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "bitvavo",
+    "name": "Bitvavo",
+    "symbol": "",
+    "chain": "OwnChain",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed Bitvavo airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/07/Bitvavo-logo.png.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/bitvavo/",
+    "claimUrl": "https://bitvavo.com",
+    "difficulty": "Easy",
+    "costToFarm": "Low",
+    "actions": [
+      "Step 1: Create Your Bitvavo Account: Sign up through the Bitvavo sign-up page with your email address.",
+      "Step 2: Complete Identity Verification (KYC): Verify your identity with a government-issued ID. Bitvavo states this step typically takes about 3 minutes.",
+      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "website": "https://bitvavo.com",
+    "x": "https://x.com/bitvavocom"
+  },
+  {
+    "id": 2,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -37,7 +62,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -67,7 +92,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -99,7 +124,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -129,7 +154,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -159,7 +184,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -190,7 +215,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -221,7 +246,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -253,7 +278,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -284,7 +309,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -318,7 +343,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -350,7 +375,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -382,7 +407,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -416,7 +441,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -443,7 +468,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -471,7 +496,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/entropyIO"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "beldex",
     "name": "Beldex",
     "symbol": "BDX",
@@ -504,7 +529,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BeldexCoin"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "dualmint",
     "name": "DualMint",
     "symbol": "DMT",
@@ -535,35 +560,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/dualmint",
     "website": "https://dualmint.com",
     "x": "https://x.com/DualMintRWA"
-  },
-  {
-    "id": 18,
-    "slug": "gyndore",
-    "name": "Gyndore",
-    "symbol": "GYND",
-    "chain": "Base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking to claim GYND tokens from the Gyndore airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Gyndore-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/gyndore/",
-    "claimUrl": "https://app.gyndore.com",
-    "difficulty": "Beginner",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Open the DropWave Reservation Portal: Go to the Gyndore reservation portal. The old DropWave campaign page now redirects here, so any saved bookmark should land in the same place.",
-      "Step 2: Connect the Wallet You Used in Season One: Reservations attach to existing Season One profiles. Connect the same wallet that collected Chips during the campaign, since a fresh wallet has no allocation tied to it.",
-      "Step 3: Authenticate Your DropWave Profile: The portal verifies the X account you linked during the campaign before it shows a balance. Approve the sign-in request so your GynPoints can be matched to the connected wallet.",
-      "Step 4: Confirm Your Base Receiving Address: Set the Base address that should receive bGYND. Use an address you hold the keys to, because exchange deposit addresses often reject tokens they have not listed.",
-      "Step 5: Submit Before September 9: Confirm the reservation and check that the portal shows it as reserved. Gyndore has not announced a fallback for allocations left unreserved after 09.09.26, so treat the date as final."
-    ],
-    "telegram": "https://t.me/gyndore",
-    "website": "https://gyndore.com",
-    "x": "https://x.com/Gyndore"
   }
 ];
