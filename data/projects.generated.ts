@@ -4,6 +4,41 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "powerx-onewallet",
+    "name": "PowerX OneWallet",
+    "symbol": "PX1",
+    "chain": "OwnChain",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed PowerX OneWallet airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/PowerX-One-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/powerx-onewallet/",
+    "claimUrl": "https://airdrops.io/powerx-onewallet/",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram",
+      "Twitter / X",
+      "Phone"
+    ],
+    "actions": [
+      "Step 1: Open the PowerX Airdrop Bot: Open the PowerX Airdrop Bot on Telegram and tap Start. The bot lists your tasks and tracks which ones you\\u2019ve finished.",
+      "Step 2: Join the PowerX Telegram Community: Join the PowerX Telegram group from the bot\\u2019s task list.",
+      "Step 3: Follow the Announcement Channel: Follow the PowerX announcement channel on Telegram, where the team posts project updates.",
+      "Step 4: Follow PowerX on X: Follow PowerX One on X and engage with the pinned post as the bot instructs.",
+      "Step 5: Download PowerX OneWallet: Once the tasks above are done, the bot unlocks the download link. Android users install the app from Google Play. iPhone users join the beta through Apple TestFlight, so install the TestFlight app first.",
+      "Step 6: Create or Import a Wallet: Open the app and create a new wallet, or import one you already use. If you create a new one, write the recovery phrase down offline. It\\u2019s generated on your phone and PowerX has no way to restore it.",
+      "Step 7: Verify and Claim Your PX1: Complete the verification in the app to secure your 500 PX1. The tokens go to the wallet you verified with at TGE, so keep access to it.",
+      "Step 8: Invite Friends for Extra PX1: Share your referral link from the PowerX Airdrop Bot to earn additional PX1 on top of the 500 PX1 base reward. This step is optional."
+    ],
+    "telegram": "https://t.me/PowerXOne",
+    "website": "https://powerx.one",
+    "x": "https://x.com/Powerxonewallet"
+  },
+  {
+    "id": 2,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -28,7 +63,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -62,7 +97,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -92,7 +127,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -124,7 +159,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -154,7 +189,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -184,7 +219,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -215,7 +250,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -246,7 +281,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -278,7 +313,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -309,7 +344,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -343,7 +378,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -375,7 +410,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -407,7 +442,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -441,7 +476,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -468,7 +503,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -496,7 +531,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/entropyIO"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "beldex",
     "name": "Beldex",
     "symbol": "BDX",
@@ -527,38 +562,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/official_beldex",
     "website": "https://beldex.io",
     "x": "https://x.com/BeldexCoin"
-  },
-  {
-    "id": 18,
-    "slug": "dualmint",
-    "name": "DualMint",
-    "symbol": "DMT",
-    "chain": "arbitrum,base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential DualMint airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Dualmint-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/dualmint/",
-    "claimUrl": "https://uptime.dualmint.com",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X",
-      "Email"
-    ],
-    "actions": [
-      "Step 1: Sign Up for UPTIME with Your Email: Go to the UPTIME campaign page and enter the email address you want tied to your points. Balances are held on the waitlist server, so the same address works from any device.",
-      "Step 2: Confirm the 6-Digit Code: Check your inbox for the code and enter it. The same code signs you in later, so there is no password to store.",
-      "Step 3: Reserve Your Queue Position: Open the statement view to see your balance and queue position. A countdown runs to the opening date, when partners are announced and first-access positions open.",
-      "Step 4: Share Your Referral Link: Copy your link from the Referrals panel. Campaign materials put a referral at 750 points once that person joins and links X, and your own X connection at 250 points.",
-      "Step 5: Track Machine Uptime: The dashboard shows a machine uptime heatmap plus a schedule of contributions listing each route, its point value and its status. Check which routes are still open, since they change as partners are announced.",
-      "Step 6: Connect Your X Account When Linking Opens: X connection is not available yet. The dashboard says it opens before Epoch 1 closes and that nothing is lost by waiting, so check back rather than hunting for a workaround.",
-      "Step 7: Check the Leaderboard: The leaderboard shows your rank, your share of the leader\\u2019s total, and a breakdown of how you got there. Use it to find routes you have not completed."
-    ],
-    "telegram": "https://t.me/dualmint",
-    "website": "https://dualmint.com",
-    "x": "https://x.com/DualMintRWA"
   }
 ];
