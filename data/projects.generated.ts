@@ -80,7 +80,7 @@ export const generatedProjects: Project[] = [
     "event": "Airdrop",
     "status": "Live",
     "date": "",
-    "description": "Looking for the confirmed Bitvavo airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "description": "Looking to claim the latest Bitvavo airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
     "logo": "https://airdrops.io/wp-content/uploads/2026/07/Bitvavo-logo.png.webp",
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/bitvavo/",
@@ -90,7 +90,7 @@ export const generatedProjects: Project[] = [
     "actions": [
       "Step 1: Create Your Bitvavo Account: Sign up through the Bitvavo sign-up page with your email address.",
       "Step 2: Complete Identity Verification (KYC): Verify your identity with a government-issued ID. Bitvavo states this step typically takes about 3 minutes.",
-      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level.",
+      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus to your wallet. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level.",
       "Step 4: Opt In Through the Campaign Hub: Open the Bitvavo app, go to the Campaign Hub, and select the Deposit Bonus Promotion to join.",
       "Step 5: Enable Auto-Earn: Go to the Earn section and turn on Auto-Earn for both staking and lending. The bonus only accrues on days when both stay active.",
       "Step 6: Deposit New Crypto: Transfer crypto from an external wallet or another exchange into your Bitvavo account. Fiat and stablecoin deposits don\\u2019t qualify, and assets already held on Bitvavo before the campaign started are excluded too.",
