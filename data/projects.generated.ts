@@ -4,6 +4,40 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "czr",
+    "name": "CZR",
+    "symbol": "CZR",
+    "chain": "Ethereum",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed CZR airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/CZR-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/czr/",
+    "claimUrl": "https://airdrop.czrex.com",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram",
+      "Twitter / X",
+      "Email"
+    ],
+    "actions": [
+      "Step 1: Visit the CZR Genesis Airdrop Page: Open the official CZR Genesis Airdrop page.",
+      "Step 2: Connect Your Wallet: Click \"Connect\" on the Connect Wallet task to earn 20 points. Use an Ethereum wallet you control, as CZR is an ERC-20 token.",
+      "Step 3: Register on CZR Exchange: Click \"Register\" to create an account on the CZR Exchange sign-up page for 30 points. The exchange is also where CZR/USDT trading opens first.",
+      "Step 4: Follow CZR on X: Click \"Go to Account\" and follow @czrexchange for 20 points.",
+      "Step 5: Post About CZR on X Every Day: Write a post about CZR Token on X, then paste the link using the \"Submit Post\" button. Each day\\u2019s post earns 30 points, and your first submission unlocks one of the locked quests.",
+      "Step 6: Complete the Extra Tasks: Once the four required actions are done, the Extra Tasks section unlocks: Connect Discord: Link your Discord account for 10 points, then join the CZR Discord server Connect X: Link your X account for 10 points Follow CZR on TG: Follow the official CZR Telegram channel for 20 points Join TG Channel: Join the official CZR Token Telegram channel for 20 points",
+      "Step 7: Refer Friends: Copy your referral link from the Refer a Friend task and share it. Referral points are not credited instantly; the dashboard shows a countdown until the next points update.",
+      "Step 8: Keep Posting Until September 30: Return daily to submit a new X post. The campaign closes on September 30, one day before CZR goes live."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "x": "https://x.com/czrexchange"
+  },
+  {
+    "id": 2,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -38,7 +72,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -63,7 +97,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -97,7 +131,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -127,7 +161,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -159,7 +193,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -189,7 +223,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -219,7 +253,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -250,7 +284,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -281,7 +315,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -313,7 +347,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -344,7 +378,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -378,7 +412,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -410,7 +444,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -442,7 +476,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -476,7 +510,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -503,7 +537,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Reelsio"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "entropy",
     "name": "Entropy",
     "symbol": "",
@@ -529,38 +563,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://entropy.io",
     "x": "https://x.com/entropyIO"
-  },
-  {
-    "id": 18,
-    "slug": "beldex",
-    "name": "Beldex",
-    "symbol": "BDX",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for the confirmed Beldex airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Beldex-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/beldex/",
-    "claimUrl": "https://quest.beldex.io",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Telegram",
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Connect Your Wallet to the Loyalty Dashboard: Open the Beldex Loyalty Program and connect an EVM wallet. Your points and rank attach to that address, so use a wallet you intend to keep.",
-      "Step 2: Link Your X Account: Connect X from the dashboard before starting tasks. Rewards do not pay out without an X connection, and the same applies to anyone you refer.",
-      "Step 3: Clear the Community Tasks: One-time actions that you need to complete from the airdrop page that cover most of your opening balance: Follow Beldex on X (100 points) Follow Beldex on LinkedIn (100 points) Join the Discord server (100 points) Subscribe to the YouTube channel (100 points) Join the Telegram community group (50 points) Join the Telegram announcement channel (50 points) Join the X Community (50 points)",
-      "Step 4: Complete the Limited-Time and Collab Tasks: The dashboard rotates timed partner tasks, usually a follow or a like. Some run for days, others expire in under eight hours, so clear them on sight.",
-      "Step 5: Post About Beldex on X Daily: Write a post about Beldex, tag @BeldexCoin, then paste the link into the Submit Post field. This pays 20 points and resets every 24 hours. Spam risks rejection, so write about a product or update you have used.",
-      "Step 6: Check In Once Per Week: The weekly check-in pays 20 points and resets every seven days. One click, and skipping it is the easiest way to leak points over a long campaign.",
-      "Step 7: Generate Your Referral Link and Invite Friends: Use the Get My Referral Link button. You earn 20% of your direct referrals\\u2019 earnings plus 5% from anyone they refer, and each friend gets 100 XP for signing up through you. Credit takes 24 to 48 hours, and referred accounts must connect X first."
-    ],
-    "telegram": "https://t.me/official_beldex",
-    "website": "https://beldex.io",
-    "x": "https://x.com/BeldexCoin"
   }
 ];
