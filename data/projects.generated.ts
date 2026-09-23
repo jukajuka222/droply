@@ -90,7 +90,11 @@ export const generatedProjects: Project[] = [
     "actions": [
       "Step 1: Create Your Bitvavo Account: Sign up through the Bitvavo sign-up page with your email address.",
       "Step 2: Complete Identity Verification (KYC): Verify your identity with a government-issued ID. Bitvavo states this step typically takes about 3 minutes.",
-      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level."
+      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level.",
+      "Step 4: Opt In Through the Campaign Hub: Open the Bitvavo app, go to the Campaign Hub, and select the Deposit Bonus Promotion to join.",
+      "Step 5: Enable Auto-Earn: Go to the Earn section and turn on Auto-Earn for both staking and lending. The bonus only accrues on days when both stay active.",
+      "Step 6: Deposit New Crypto: Transfer crypto from an external wallet or another exchange into your Bitvavo account. Fiat and stablecoin deposits don\\u2019t qualify, and assets already held on Bitvavo before the campaign started are excluded too.",
+      "Step 7: Trade to Increase Your Rate (Optional): Depositing alone earns the 4% base rate. Trading your newly deposited funds raises the rate based on total turnover relative to your deposit: Turnover \\u2265 5x deposit: 5% APY Turnover \\u2265 10x deposit: 6% APY Turnover \\u2265 20x deposit: 10% APY (maximum) The tier is measured at the end of the promotion period on September 30, 2026, and applies retroactively to your entire accrual period."
     ],
     "telegram": "https://t.me/airdrops_io",
     "website": "https://bitvavo.com",
