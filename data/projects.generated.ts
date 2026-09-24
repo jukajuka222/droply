@@ -4,6 +4,35 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "synthra",
+    "name": "Synthra",
+    "symbol": "SYN",
+    "chain": "arc",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed Synthra airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Synthra-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/synthra/",
+    "claimUrl": "https://synthra.org",
+    "difficulty": "Easy",
+    "costToFarm": "Medium",
+    "actions": [
+      "Step 1: Visit the Synthra App: Go to the Synthra app.",
+      "Step 2: Connect Your Wallet: Click \"Connect Wallet\" and approve the connection with an EVM wallet.",
+      "Step 3: Deposit Supported Coins: Deposit any of the supported stablecoins into your Synthra account. If you need USDC, you can buy it on Bybit. Stablecoins sitting on another network can be moved or swapped with the widget below before you deposit. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 4: Provide In-Range Liquidity: Add liquidity to a Synthra pool on Arc. This covers 80% of the daily points pool: Set a price range around the current price so the position stays active New net liquidity earns extra points for its first 7 days while in range Rebalance if the price leaves your range, since out-of-range positions stop qualifying as active liquidity",
+      "Step 5: Trade Spot and Perps: Swap tokens, including cross-chain routes, or open perpetual positions. Volume earns from the 15% trading share up to $100,000 per day, and anything above that cap adds no points.",
+      "Step 6: Share Your Referral Link: Copy your link from the Rewards & referrals section and send it to people who plan to use Synthra. Sign-ups alone earn nothing; you only receive referral points once invitees complete qualifying activity."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "discord": "https://discord.gg/eesEKPRDtd",
+    "website": "https://synthra.org",
+    "x": "https://x.com/synthra_finance"
+  },
+  {
+    "id": 2,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -36,7 +65,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -70,7 +99,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -105,7 +134,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -134,7 +163,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -168,7 +197,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -198,7 +227,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -230,7 +259,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -260,7 +289,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -290,7 +319,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -321,7 +350,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -352,7 +381,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -384,7 +413,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -415,7 +444,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -441,7 +470,7 @@ export const generatedProjects: Project[] = [
     ]
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -473,7 +502,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -505,7 +534,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -537,32 +566,5 @@ export const generatedProjects: Project[] = [
     "discord": "https://discord.gg/vangridio",
     "website": "https://vangrid.io",
     "x": "https://x.com/vangrid_io"
-  },
-  {
-    "id": 18,
-    "slug": "reels",
-    "name": "Reels",
-    "symbol": "",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Reels airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Reels-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/reels/",
-    "claimUrl": "https://click.trkreels.com",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "actions": [
-      "Step 1: Create a Reels Account: Go to the Reels sign-up page and register with email, X, Google, or Telegram. Registration takes under a minute and does not require a deposit.",
-      "Step 2: Apply the Promo Code: Open the deposit page and enter the code AIRDROPS before confirming your deposit. The code has to be applied before the deposit goes through; it cannot be added afterward.",
-      "Step 3: Make a Qualifying Deposit: Deposit at least 20 USD in BTC, ETH, USDT, USDC, TON, SOL, or another supported coin. If you need to pick up crypto first, Bybit is a straightforward option for buying BTC, ETH, or USDT before sending it over. If you\\u2019re holding funds on a different chain, use the widget below to swap or bridge to whatever coin you plan to deposit. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 4: Play Across the Casino, Sportsbook, or Prediction Markets: Once the bonus lands, it\\u2019s available across slots, live dealer tables, sports betting, and prediction markets from the same balance. Track your wagering progress on the promotions page so you know when the bonus and any winnings from it become withdrawable."
-    ],
-    "telegram": "https://t.me/reelsio_announcements",
-    "discord": "https://discord.gg/reelsio",
-    "website": "https://reels.io",
-    "x": "https://x.com/Reelsio"
   }
 ];
