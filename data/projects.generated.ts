@@ -4,6 +4,39 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "mindgames",
+    "name": "MindGames",
+    "symbol": "",
+    "chain": "Robinhood",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential MindGames airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/MindGamesAI-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/mindgames/",
+    "claimUrl": "https://minds.games",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
+    "requirements": [
+      "Twitter / X",
+      "Email"
+    ],
+    "actions": [
+      "Step 1: Claim Your Seat on MINDS.GAMES: Go to MINDS.GAMES, enter your email, accept the campaign rules and click \"Claim Your Seat.\" Login works through a one-hour email link, so there is no password to set.",
+      "Step 2: Connect Your Wallet: Connect an EVM wallet from your dashboard. This earns 100 points and is required to appear on any leaderboard or receive an allowlist place. The only wallet action is a free ownership signature, with no gas, approvals or token allowances.",
+      "Step 3: Complete Your Profile and Connect X: Add your name and country for a small bonus, then connect X to appear on the referral leaderboard.",
+      "Step 4: Create or Link a Mind on HelloMinds: Open HelloMinds through the link in your dashboard and create your AI agent. If you already have a Mind, copy the three details from its HelloMinds profile into the dashboard to claim the one-time 100-point bonus. Have three conversations with your Mind to unlock $5 in HelloMinds credits These credits work on the platform only and are not cash or a token",
+      "Step 5: Complete Quests and Featured Weekly Tasks: Work through the quests on your dashboard, including follows for @MindGames_AI and @hellominds_. Featured weekly tasks pay 150 points each once approved, so check back every week for new ones.",
+      "Step 6: Share Your Referral Link: Copy your personal referral link from the dashboard and share it. A referral only activates, and pays 250 points, once the new user signs up, connects a wallet and links or creates a Mind. Referees who also connect X count for more.",
+      "Step 7: Hold an Eligible Robinhood NFT (Optional): If you own an eligible Robinhood NFT, keep it in your connected wallet. The 1.5x multiplier applies only while the NFT stays there, and the team has not published the list of qualifying collections yet."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "website": "https://minds.games",
+    "x": "https://x.com/MindGames_AI"
+  },
+  {
+    "id": 2,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -37,7 +70,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -72,7 +105,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -101,7 +134,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -135,7 +168,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -165,7 +198,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -197,7 +230,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -227,7 +260,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -257,7 +290,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -288,7 +321,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -319,7 +352,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -351,7 +384,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -382,7 +415,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -408,7 +441,7 @@ export const generatedProjects: Project[] = [
     ]
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -440,7 +473,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -472,7 +505,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rep_hq"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "vangrid",
     "name": "Vangrid",
     "symbol": "VAN",
@@ -506,7 +539,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vangrid_io"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "reels",
     "name": "Reels",
     "symbol": "",
@@ -531,33 +564,5 @@ export const generatedProjects: Project[] = [
     "discord": "https://discord.gg/reelsio",
     "website": "https://reels.io",
     "x": "https://x.com/Reelsio"
-  },
-  {
-    "id": 18,
-    "slug": "entropy",
-    "name": "Entropy",
-    "symbol": "",
-    "chain": "hyperliquid",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Entropy airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Entropy-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/entropy/",
-    "claimUrl": "https://entropy.io",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "actions": [
-      "Step 1: Connect your wallet to Entropy: Go to the Entropy trading app and connect Rabby, MetaMask, or another supported wallet.",
-      "Step 2: Set your username: Finish account setup and pick a username.",
-      "Step 3: Deposit USDC to your Hyperliquid account: Entropy markets settle in USDC held in your Hyperliquid perps balance, funded via Arbitrum. Buy USDC on Bybit and withdraw straight to Arbitrum, or shift existing funds across chains using the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 4: Trade the live Entropy markets: Open positions on io:ANTH, io:SNDK, io:NBIS, or io:GPRO. Leverage caps run from 5x to 10x by market, and isolated margin keeps any liquidation contained to that position.",
-      "Step 5: Create or apply a referral code: Generate a code on the referrals page to earn a share of fees from signups. Applying someone else\\u2019s code gives you a fee benefit matching their tier.",
-      "Step 6: Build volume on Entropy markets: Rebate tiers track rolling 30-day volume on Entropy markets. Volume on native Hyperliquid perps like BTC or ETH counts for Hyperliquid but not toward Entropy tiers."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://entropy.io",
-    "x": "https://x.com/entropyIO"
   }
 ];
