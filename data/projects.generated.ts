@@ -395,11 +395,6 @@ export const generatedProjects: Project[] = [
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/ammora/",
     "claimUrl": "https://ammora.org",
-    "difficulty": "Beginner",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
     "actions": [
       "Step 1: Add GIWA Sepolia to your wallet: Open MetaMask or another EVM wallet and add GIWA Sepolia, chain ID 91342.",
       "Step 2: Claim GIWA Sepolia test ETH: Request test ETH from the Lambda256 faucet linked on Ammora\\u2019s mission page. The liquidity mission has a 0.001 ETH minimum and gas on GIWA is negligible, so you need very little.",
@@ -410,10 +405,7 @@ export const generatedProjects: Project[] = [
       "Step 7: Supply test ETH liquidity: Press Supply on the daily liquidity mission and deposit at least 0.001 GIWA Sepolia test ETH into the Ammora vault. Each verified supply pays 50 AP. Repeat it daily.",
       "Step 8: Clear the Launch Week bonus: Complete all five missions once during Launch Week, meaning joining, following, retweeting, posting and supplying. It is the largest single chunk of points available and it disappears when the window closes.",
       "Step 9: Share your referral link: Open the referral tab on the waitlist page and copy your link. Each signup credits 200 AP up to a cap of five, so 1,000 AP is on the table."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://ammora.org",
-    "x": "https://x.com/AmmoraHQ"
+    ]
   },
   {
     "id": 14,
