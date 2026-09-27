@@ -416,7 +416,7 @@ export const generatedProjects: Project[] = [
     "id": 14,
     "slug": "acepyr",
     "name": "Acepyr",
-    "symbol": "",
+    "symbol": "$ACEPYR",
     "chain": "Base",
     "event": "Airdrop",
     "status": "Live",
@@ -426,6 +426,8 @@ export const generatedProjects: Project[] = [
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/acepyr/",
     "claimUrl": "https://acepyr.com",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
     "actions": [
       "Step 1: Create Your Acepyr Account: Sign up at Acepyr with an email and password, entering referral code PW34SD3C2J during registration. Codes only count when applied at signup. Verify your email to activate the account.",
       "Step 2: Accept the Legal Documents and Complete Onboarding: First login walks you through the Terms of Service, Privacy Policy and Testnet Points Notice, then the onboarding survey. Those steps plus your first sign-in pay 300 testnet $ACEPYR.",
@@ -435,7 +437,11 @@ export const generatedProjects: Project[] = [
       "Step 6: Enter the Weekly Tournament: Entry is free and individual, with no ticket and no minimum balance. One settled trade that week makes you valid and earns a share of the 10,000 testnet $ACEPYR pool.",
       "Step 7: Build a Sign-In Streak: The streak pays at five rungs: 50 at two days, 100 at three, 300 at seven, 500 at fourteen and 1,000 at thirty. Each rung banks permanently.",
       "Step 8: Generate Your Referral Code: Open Profile, then Referrals. Codes reset every month and points do not carry over."
-    ]
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "discord": "https://discord.gg/acepyr",
+    "website": "https://acepyr.com",
+    "x": "https://x.com/acepyr"
   },
   {
     "id": 15,
@@ -451,6 +457,11 @@ export const generatedProjects: Project[] = [
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/ammora/",
     "claimUrl": "https://ammora.org",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Twitter / X"
+    ],
     "actions": [
       "Step 1: Add GIWA Sepolia to your wallet: Open MetaMask or another EVM wallet and add GIWA Sepolia, chain ID 91342.",
       "Step 2: Claim GIWA Sepolia test ETH: Request test ETH from the Lambda256 faucet linked on Ammora\\u2019s mission page. The liquidity mission has a 0.001 ETH minimum and gas on GIWA is negligible, so you need very little.",
@@ -461,7 +472,10 @@ export const generatedProjects: Project[] = [
       "Step 7: Supply test ETH liquidity: Press Supply on the daily liquidity mission and deposit at least 0.001 GIWA Sepolia test ETH into the Ammora vault. Each verified supply pays 50 AP. Repeat it daily.",
       "Step 8: Clear the Launch Week bonus: Complete all five missions once during Launch Week, meaning joining, following, retweeting, posting and supplying. It is the largest single chunk of points available and it disappears when the window closes.",
       "Step 9: Share your referral link: Open the referral tab on the waitlist page and copy your link. Each signup credits 200 AP up to a cap of five, so 1,000 AP is on the table."
-    ]
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "website": "https://ammora.org",
+    "x": "https://x.com/AmmoraHQ"
   },
   {
     "id": 16,
@@ -523,6 +537,7 @@ export const generatedProjects: Project[] = [
       "Step 6: Browse Matches and Join Rooms: Open the Matches section to see communities your reputation qualifies you for. Some rooms ask for an email address. Join the ones relevant to your activity rather than every room on the list.",
       "Step 7: Share Your Social Graph Invite Link: Grab your personal invite link from the Social Graph section and share it. Invites are weighted by who accepts them, so a handful of active wallets beats a long list of empty ones."
     ],
+    "telegram": "https://t.me/airdrops_io",
     "website": "https://app.r3p.xyz",
     "x": "https://x.com/rep_hq"
   },
