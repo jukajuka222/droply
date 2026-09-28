@@ -4,6 +4,40 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "raycash",
+    "name": "Raycash",
+    "symbol": "",
+    "chain": "Polygon",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential Raycash airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Raycash-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/raycash/",
+    "claimUrl": "https://raycash.xyz",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram",
+      "Twitter / X",
+      "Email"
+    ],
+    "actions": [
+      "Step 1: Join the Raycash Waitlist: Go to the Raycash waitlist and sign up with your email address.",
+      "Step 2: Subscribe to the In Confidence Newsletter: Open the newsletter challenge on your dashboard and subscribe to In confidence, the Raycash newsletter for product news and insights. This adds another 100 RP.",
+      "Step 3: Follow Raycash on X: Use the challenge card to follow @raycashxyz on X. The account posts product updates and beta announcements.",
+      "Step 4: Post About Raycash on X: Complete the posting challenge by sharing a post about Raycash with your followers. Adding your referral link to the post lets any sign-ups from it count toward your referral points.",
+      "Step 5: Join the Raycash Telegram Community: Join the Raycash Telegram through the challenge card to claim the last starter reward. The team posts releases there and answers questions from users.",
+      "Step 6: Share Your Referral Link: Copy your personal referral link from the dashboard and send it to friends who might use a private stablecoin account. Each person who signs up through your link adds RP to your total.",
+      "Step 7: Check for New Challenges and Beta Invites: Return to the dashboard regularly, since new challenges appear as the team adds them. Beta access rolls out in waves, so watch your inbox and the Raycash X account for your invite."
+    ],
+    "telegram": "https://t.me/+g6Lz7UqgVW83YThk",
+    "website": "https://raycash.xyz",
+    "x": "https://x.com/raycashxyz"
+  },
+  {
+    "id": 2,
     "slug": "synthra",
     "name": "Synthra",
     "symbol": "SYN",
@@ -32,7 +66,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/synthra_finance"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -65,7 +99,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -99,7 +133,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -134,7 +168,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -163,7 +197,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -197,7 +231,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -227,7 +261,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -259,7 +293,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -289,7 +323,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -319,7 +353,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -350,7 +384,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -381,7 +415,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -413,7 +447,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -444,7 +478,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -478,7 +512,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -510,7 +544,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/HunterBiden"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "rep",
     "name": "REP",
     "symbol": "REP",
@@ -540,39 +574,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://app.r3p.xyz",
     "x": "https://x.com/rep_hq"
-  },
-  {
-    "id": 18,
-    "slug": "vangrid",
-    "name": "Vangrid",
-    "symbol": "VAN",
-    "chain": "Base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Vangrid airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Vangrid-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/vangrid/",
-    "claimUrl": "https://hub.vangrid.io",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Install the Vangrid App: Download the Vangrid App on Android, or open the browser capture tool if you are on iOS. Allow camera and location access, since captures without location data cannot be verified.",
-      "Step 2: Record a Capture That Meets the Spec: Film a location a robot would realistically need to cross. Vangrid accepts: Sidewalks and pedestrian paths Stairs and stairwells Alleys and service lanes Public squares and plazas Skip roads, crowds of people, and private indoor spaces. Recording requirements: Hold the phone vertically at chest level, using both hands Walk at a steady pace and pan smoothly from side to side Record 30 to 60 seconds in daylight",
-      "Step 3: Enter an Invite Code and Upload: Uploads are gated behind an invite code. Enter GRID-01 before uploading. Uploading daily adds a 50-point bonus, with further bonuses at 5, 10, and 50 total videos.",
-      "Step 4: Connect Your Wallet to the Loyalty Hub: Open the Vangrid Loyalty Hub and connect an EVM wallet. Your first login credits PTC on its own.",
-      "Step 5: Complete Loyalty Hub Quests: Work through the quest list: follow Vangrid on X, join the Discord, connect LinkedIn, engage with posts, and publish weekly X posts. Reach Discord through the Hub quest link rather than a forwarded invite. No legitimate verification asks you to sign a wallet transaction, so close any page that does.",
-      "Step 6: Unlock Grid Operator Status: Follow Vangrid on X, join the Discord, and submit one in-app video to earn the Grid Operator role and badge, which applies a 1.5x multiplier to your PTC.",
-      "Step 7: Submit to Funded Bounties: Browse open requests at the Vangrid bounty portal. These are location-specific asks from buyers, and selected submissions pay USDC on Base. Browsing requires no invite code.",
-      "Step 8: Refer Other Contributors: Share your Hub referral link. You earn 10% of the PTC your referrals generate, and each new user who joins through a link starts with a 50 PTC bonus."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "discord": "https://discord.gg/vangridio",
-    "website": "https://vangrid.io",
-    "x": "https://x.com/vangrid_io"
   }
 ];
