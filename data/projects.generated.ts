@@ -4,6 +4,41 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "tastyco",
+    "name": "TastyCo",
+    "symbol": "TASTY",
+    "chain": "bsc",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for the confirmed TastyCo airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/TastyCo-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/tastyco/",
+    "claimUrl": "https://app.tastyco.io",
+    "difficulty": "Beginner",
+    "costToFarm": "Free",
+    "requirements": [
+      "Telegram",
+      "Twitter / X"
+    ],
+    "actions": [
+      "Step 1: Create Your Profile on the TastyCo App: Visit the TastyCo app, connect any EVM wallet, and finish registration. This step is mandatory: points earned on Galxe, Zealy or TaskOn only count if you have a TastyCo profile.",
+      "Step 2: Connect Your Social Accounts: Open the Tasks page and complete the one-time social tasks: Connect your X account Connect Telegram through the TastyCo bot (+150 points) Join the TastyCo Discord server (+100 points) Follow TastyCo on Instagram (+100 points)",
+      "Step 3: Build Weekly Activity Streaks: Be active on the app on consecutive days. The 3-day and 5-day streaks pay 150 points each, and a full 7-day streak pays 300. All three reset weekly.",
+      "Step 4: Pass the Weekly Education Quiz: Complete the education quiz on the Tasks page for 150 points. You need a passing score, and the quiz refreshes every week.",
+      "Step 5: Post Community Content on X: Publish a post about TastyCo on X and submit it through the Community content task. It pays 150 points and becomes available again every 3 days.",
+      "Step 6: Invite Qualified Referrals: Share your TastyCo referral link from the app. Each qualified referral earns 200 points, with milestone bonuses when you reach 3, 5, 10 and 20 referrals.",
+      "Step 7: Complete Quests on Galxe, Zealy and TaskOn: Work through the TastyCo campaigns on Galxe, Zealy and TaskOn. Your points here feed the 30% share of the allocation.",
+      "Step 8: Earn Discord Roles and Join Events: Stay active in Discord to earn the Creator, OG or Ambassador roles, which carry extra rewards. Join AMAs and contests as they come up, and apply to the Ambassador program if you post regularly."
+    ],
+    "telegram": "https://t.me/tastyco_io",
+    "discord": "https://discord.gg/mUMe36t7a",
+    "website": "https://tastyco.io",
+    "x": "https://x.com/tastyco_io"
+  },
+  {
+    "id": 2,
     "slug": "raycash",
     "name": "Raycash",
     "symbol": "",
@@ -37,7 +72,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/raycashxyz"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "synthra",
     "name": "Synthra",
     "symbol": "SYN",
@@ -66,7 +101,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/synthra_finance"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -99,7 +134,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -133,7 +168,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -168,7 +203,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "bitvavo",
     "name": "Bitvavo",
     "symbol": "",
@@ -197,7 +232,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/bitvavocom"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -231,7 +266,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -261,7 +296,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -293,7 +328,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -323,7 +358,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -353,7 +388,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -384,7 +419,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -415,7 +450,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -447,7 +482,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -478,7 +513,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -512,7 +547,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -542,37 +577,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://laptoptoken.com",
     "x": "https://x.com/HunterBiden"
-  },
-  {
-    "id": 18,
-    "slug": "rep",
-    "name": "REP",
-    "symbol": "REP",
-    "chain": "Base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential REP airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/REP-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/rep/",
-    "claimUrl": "https://app.r3p.xyz",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Log In With Your X Account: Go to the REP app and sign in with X. This becomes the anchor identity for your profile, and REP reads public metrics like follower quality to seed your first badges.",
-      "Step 2: Connect Your Wallets: Open your profile and bind your wallets. REP supports roughly five addresses per account, EVM and others. Use the wallets with the deepest history, since an empty wallet produces no achievements. You only sign a message to prove ownership, with no approvals or transfers.",
-      "Step 3: Link Your Other Social Accounts: Add Telegram, Farcaster, Discord, and any other supported platform from the profile page. Each one widens the pool of achievements you qualify for.",
-      "Step 4: Claim Your Achievements: Open the achievements list and claim every badge you qualify for. Values range from a few hundred REP points for social milestones up to 3,000 for top-percentile DeFi activity. Some claims charge a small on-chain fee, so keep a little of the relevant gas token in your connected wallet. You can buy it on Bybit and withdraw it directly, or move assets you already hold with the widget below to bridge or swap onto the chain you need. Bridge fundsSwap and bridge across 30+ chains without leaving thi\\u2026",
-      "Step 5: Set Your Remoji Rank: Ranks run across seven tiers, from pilgrim at the bottom to the top 0.5% band. Once your badges are claimed, set the rank emoji on your REP profile and on Telegram, where it acts as the signal other users read before connecting with you.",
-      "Step 6: Browse Matches and Join Rooms: Open the Matches section to see communities your reputation qualifies you for. Some rooms ask for an email address. Join the ones relevant to your activity rather than every room on the list.",
-      "Step 7: Share Your Social Graph Invite Link: Grab your personal invite link from the Social Graph section and share it. Invites are weighted by who accepts them, so a handful of active wallets beats a long list of empty ones."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://app.r3p.xyz",
-    "x": "https://x.com/rep_hq"
   }
 ];
