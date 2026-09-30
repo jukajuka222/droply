@@ -142,27 +142,21 @@ export const generatedProjects: Project[] = [
     "event": "Airdrop",
     "status": "Live",
     "date": "",
-    "description": "Looking for the confirmed CZR airdrop? Follow our step-by-step guide to qualify for the ongoing airdrop before it ends.",
+    "description": "Looking to claim CZR tokens from the CZR airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
     "logo": "https://airdrops.io/wp-content/uploads/2026/09/CZR-logo.jpg.webp",
     "source": "Airdrops.io",
     "sourceUrl": "https://airdrops.io/czr/",
     "claimUrl": "https://airdrop.czrex.com",
     "difficulty": "Easy",
     "costToFarm": "Free",
-    "requirements": [
-      "Telegram",
-      "Twitter / X",
-      "Email"
-    ],
     "actions": [
-      "Step 1: Visit the CZR Genesis Airdrop Page: Open the official CZR Genesis Airdrop page.",
-      "Step 2: Connect Your Wallet: Click \"Connect\" on the Connect Wallet task to earn 20 points. Use an Ethereum wallet you control, as CZR is an ERC-20 token.",
-      "Step 3: Register on CZR Exchange: Click \"Register\" to create an account on the CZR Exchange sign-up page for 30 points. The exchange is also where CZR/USDT trading opens first.",
-      "Step 4: Follow CZR on X: Click \"Go to Account\" and follow @czrexchange for 20 points.",
-      "Step 5: Post About CZR on X Every Day: Write a post about CZR Token on X, then paste the link using the \"Submit Post\" button. Each day\\u2019s post earns 30 points, and your first submission unlocks one of the locked quests.",
-      "Step 6: Complete the Extra Tasks: Once the four required actions are done, the Extra Tasks section unlocks: Connect Discord: Link your Discord account for 10 points, then join the CZR Discord server Connect X: Link your X account for 10 points Follow CZR on TG: Follow the official CZR Telegram channel for 20 points Join TG Channel: Join the official CZR Token Telegram channel for 20 points",
-      "Step 7: Refer Friends: Copy your referral link from the Refer a Friend task and share it. Referral points are not credited instantly; the dashboard shows a countdown until the next points update.",
-      "Step 8: Keep Posting Until September 30: Return daily to submit a new X post. The campaign closes on September 30, one day before CZR goes live."
+      "Step 1: Open the Official CZR Claim Page: Go to the CZR claim page on the airdrop.czrex.com domain. Genesis and Quest participants both claim here. Ignore claim links sent through DMs, comments or search ads, and read our airdrop safety guide if you are unsure about a site.",
+      "Step 2: Check Your Eligibility: Paste your wallet address into the eligibility checker and click \"Check.\" Use the Ethereum wallet you connected during the Genesis campaign or the Quest program.",
+      "Step 3: Get ETH for the Claim Fee: The claim is an Ethereum transaction, so you need a small amount of ETH on Ethereum mainnet for gas. You can buy ETH on Bybit, or bridge and swap funds from another chain to Ethereum with the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 4: Connect Your Eligible Wallet: Click \"Connect Wallet\" and approve the connection in MetaMask, Rabby or another Ethereum wallet. The page shows your CZR allocation once the wallet is connected.",
+      "Step 5: Claim Your CZR: Click the claim button and confirm the transaction in your wallet before the window closes on October 5, 2026.",
+      "Step 6: Wait for the October 11 Unlock: Airdropped CZR stays locked for 10 days after the October 1 launch. Until October 11, you cannot sell, trade, transfer or withdraw it.",
+      "Step 7: Trade CZR on CZR Exchange: CZR/USDT spot trading opens on CZR Exchange on October 1. CZR deposits and withdrawals on the exchange stay paused until October 11 at 1:00 PM Singapore time, while trading itself remains open."
     ],
     "telegram": "https://t.me/airdrops_io",
     "x": "https://x.com/czrexchange"
