@@ -198,35 +198,6 @@ export const generatedProjects: Project[] = [
   },
   {
     "id": 7,
-    "slug": "bitvavo",
-    "name": "Bitvavo",
-    "symbol": "",
-    "chain": "OwnChain",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking to claim the latest Bitvavo airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/07/Bitvavo-logo.png.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/bitvavo/",
-    "claimUrl": "https://bitvavo.com",
-    "difficulty": "Easy",
-    "costToFarm": "Low",
-    "actions": [
-      "Step 1: Create Your Bitvavo Account: Sign up through the Bitvavo sign-up page with your email address.",
-      "Step 2: Complete Identity Verification (KYC): Verify your identity with a government-issued ID. Bitvavo states this step typically takes about 3 minutes.",
-      "Step 3: Deposit \\u20ac20 to Receive Your \\u20ac20 Bonus: Fund your account with a minimum deposit of \\u20ac20 via SEPA transfer, card, or another supported method. Once confirmed, Bitvavo automatically credits your matched bonus to your wallet. If you sign up after the Tier 1 window closes, the same process applies at the \\u20ac10 deposit and \\u20ac10 bonus level.",
-      "Step 4: Opt In Through the Campaign Hub: Open the Bitvavo app, go to the Campaign Hub, and select the Deposit Bonus Promotion to join.",
-      "Step 5: Enable Auto-Earn: Go to the Earn section and turn on Auto-Earn for both staking and lending. The bonus only accrues on days when both stay active.",
-      "Step 6: Deposit New Crypto: Transfer crypto from an external wallet or another exchange into your Bitvavo account. Fiat and stablecoin deposits don\\u2019t qualify, and assets already held on Bitvavo before the campaign started are excluded too.",
-      "Step 7: Trade to Increase Your Rate (Optional): Depositing alone earns the 4% base rate. Trading your newly deposited funds raises the rate based on total turnover relative to your deposit: Turnover \\u2265 5x deposit: 5% APY Turnover \\u2265 10x deposit: 6% APY Turnover \\u2265 20x deposit: 10% APY (maximum) The tier is measured at the end of the promotion period on September 30, 2026, and applies retroactively to your entire accrual period."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://bitvavo.com",
-    "x": "https://x.com/bitvavocom"
-  },
-  {
-    "id": 8,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -260,7 +231,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 9,
+    "id": 8,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -290,7 +261,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 10,
+    "id": 9,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -322,7 +293,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 11,
+    "id": 10,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -352,7 +323,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 12,
+    "id": 11,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -382,7 +353,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 13,
+    "id": 12,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -413,7 +384,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 14,
+    "id": 13,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -444,7 +415,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 15,
+    "id": 14,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -476,7 +447,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 16,
+    "id": 15,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -507,7 +478,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 17,
+    "id": 16,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -541,7 +512,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/AmmoraHQ"
   },
   {
-    "id": 18,
+    "id": 17,
     "slug": "laptop",
     "name": "Laptop",
     "symbol": "LAPTOP",
@@ -571,5 +542,37 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://laptoptoken.com",
     "x": "https://x.com/HunterBiden"
+  },
+  {
+    "id": 18,
+    "slug": "rep",
+    "name": "REP",
+    "symbol": "REP",
+    "chain": "Base",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential REP airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/REP-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/rep/",
+    "claimUrl": "https://app.r3p.xyz",
+    "difficulty": "Easy",
+    "costToFarm": "Free",
+    "requirements": [
+      "Twitter / X"
+    ],
+    "actions": [
+      "Step 1: Log In With Your X Account: Go to the REP app and sign in with X. This becomes the anchor identity for your profile, and REP reads public metrics like follower quality to seed your first badges.",
+      "Step 2: Connect Your Wallets: Open your profile and bind your wallets. REP supports roughly five addresses per account, EVM and others. Use the wallets with the deepest history, since an empty wallet produces no achievements. You only sign a message to prove ownership, with no approvals or transfers.",
+      "Step 3: Link Your Other Social Accounts: Add Telegram, Farcaster, Discord, and any other supported platform from the profile page. Each one widens the pool of achievements you qualify for.",
+      "Step 4: Claim Your Achievements: Open the achievements list and claim every badge you qualify for. Values range from a few hundred REP points for social milestones up to 3,000 for top-percentile DeFi activity. Some claims charge a small on-chain fee, so keep a little of the relevant gas token in your connected wallet. You can buy it on Bybit and withdraw it directly, or move assets you already hold with the widget below to bridge or swap onto the chain you need. Bridge fundsSwap and bridge across 30+ chains without leaving thi\\u2026",
+      "Step 5: Set Your Remoji Rank: Ranks run across seven tiers, from pilgrim at the bottom to the top 0.5% band. Once your badges are claimed, set the rank emoji on your REP profile and on Telegram, where it acts as the signal other users read before connecting with you.",
+      "Step 6: Browse Matches and Join Rooms: Open the Matches section to see communities your reputation qualifies you for. Some rooms ask for an email address. Join the ones relevant to your activity rather than every room on the list.",
+      "Step 7: Share Your Social Graph Invite Link: Grab your personal invite link from the Social Graph section and share it. Invites are weighted by who accepts them, so a handful of active wallets beats a long list of empty ones."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "website": "https://app.r3p.xyz",
+    "x": "https://x.com/rep_hq"
   }
 ];
