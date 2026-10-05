@@ -348,7 +348,8 @@ export const generatedProjects: Project[] = [
       "Step 3: Create a Testnet Token: Click the launch option and fill in the details: Token name and ticker Token image (required) A short description of the project Put some effort into it, because the team says quality launches count.",
       "Step 4: Buy and Sell Testnet Tokens: Trade tokens launched by other users. Buy early on the bonding curve and sell into strength, since high PnL is one of the listed eligibility criteria.",
       "Step 5: Join the Telegram Raiding Channel: Join the Vibe Vibe Telegram and take part in raids on X. You need a verified X account, and the top 250 raiders qualify for a free Vibe Vibers NFT.",
-      "Step 6: Apply for a Vibe Vibers Whitelist: Follow the Vibe Vibers page for mint updates. Creators who make memes or other content can apply for collab spots when the form opens, with free mint whitelists awarded based on quality."
+      "Step 6: Apply for a Vibe Vibers Whitelist: Follow the Vibe Vibers page for mint updates. Creators who make memes or other content can apply for collab spots when the form opens, with free mint whitelists awarded based on quality.",
+      "Register or Join a Guild: Visit the vibe/vibe guilds page Register your community as a guild, or join an existing one such as the Airdrops.io guild Bring in members early to climb toward the top 100 The platform runs on testnet only, so no real funds are needed."
     ],
     "telegram": "https://t.me/vibevibefun",
     "discord": "https://discord.gg/vibevibebuilders",
