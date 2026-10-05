@@ -101,6 +101,41 @@ export const generatedProjects: Project[] = [
   },
   {
     "id": 4,
+    "slug": "rwaperp",
+    "name": "RWAPerp",
+    "symbol": "",
+    "chain": "other",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential RWAPerp airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/09/RWAPerp-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/rwaperp/",
+    "claimUrl": "https://rwaperp.xyz",
+    "difficulty": "Easy",
+    "costToFarm": "Low",
+    "requirements": [
+      "Telegram",
+      "Twitter / X",
+      "Email"
+    ],
+    "actions": [
+      "Step 1: Join the RWAPerp Waitlist: Go to the RWAPerp Waitlist, connect your X account (10 XP) and follow the official RWAPerp account (20 XP). Joining is free.",
+      "Step 2: Connect Wallets With Perp Trading History: Link up to three wallets you\\u2019ve used on perp DEXs like Hyperliquid, Aster or dYdX, signing once per wallet. Verification gives 20 XP, and past trading volume is worth up to 300 XP.",
+      "Step 3: Complete the Community Tasks: Finish the remaining waitlist tasks: Join the RWAPerp Discord (10 XP) Join the RWAPerp Telegram community (10 XP) Repost the designated campaign post (10 XP) Add your email address to receive the access notification",
+      "Step 4: Activate Your Early Access: Watch the waitlist page, RWAPerp\\u2019s X account and your inbox for your cohort notice, then activate before its deadline or your spot may be reassigned. An existing Early Access user can also invite you directly.",
+      "Step 5: Connect OKX Wallet to the RWAPerp App: Open the RWAPerp app, connect OKX Wallet (the trading wallet the docs currently support) and sign the message to create your account. The platform never takes custody of your funds.",
+      "Step 6: Deposit USDC: Positions use USDC on X Layer, and you need a little OKB for X Layer gas. Buy USDC on Bybit, then move it to the right network with the bridge widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 7: Trade RWA Perpetuals: Open long or short positions on stocks, indices, commodities or crypto. Volume, fees paid and active trading days all count toward points. Use low leverage until you know how these markets move around closes and gaps.",
+      "Step 8: Invite Other Traders: Early Access users can invite up to 10 people, who get immediate Beta access and a 5% trading fee discount for their first 30 days."
+    ],
+    "telegram": "https://t.me/RWAPerpann",
+    "website": "https://rwaperp.xyz",
+    "x": "https://x.com/rwaperp"
+  },
+  {
+    "id": 5,
     "slug": "synthra",
     "name": "Synthra",
     "symbol": "SYN",
@@ -129,7 +164,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/synthra_finance"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -162,7 +197,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -190,7 +225,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -225,7 +260,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -259,7 +294,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -289,7 +324,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -321,7 +356,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -351,7 +386,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -381,7 +416,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -412,7 +447,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -443,7 +478,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -475,7 +510,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -506,7 +541,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/acepyr"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "ammora",
     "name": "Ammora",
     "symbol": "",
@@ -538,37 +573,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/airdrops_io",
     "website": "https://ammora.org",
     "x": "https://x.com/AmmoraHQ"
-  },
-  {
-    "id": 18,
-    "slug": "laptop",
-    "name": "Laptop",
-    "symbol": "LAPTOP",
-    "chain": "Base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking to claim LAPTOP tokens from the Laptop airdrop? Follow our step-by-step guide with eligibility details, official links and safety notes.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Laptop_Token_Airdrop.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/laptop/",
-    "claimUrl": "https://claim.laptoptoken.com",
-    "difficulty": "Beginner",
-    "costToFarm": "Free",
-    "requirements": [
-      "Email"
-    ],
-    "actions": [
-      "Step 1: Identify Which Cohort You Fall Under: Work out which of the three groups applies to you first. Substack and Channel 5 recipients claim by email through the official portal. TRUMP loss recipients never use it, since those tokens move through exchanges.",
-      "Step 2: Verify the Contract Address and Domain: The project lists its official Base contract as 0xB095274743941e953c746F9C228DA9c18Bb6ec29. Verify it on the official LAPTOP website rather than a screener or a search result. Our crypto safety guide explains how fake claim pages work.",
-      "Step 3: Open the Official Claim Portal: Go to the LAPTOP claim portal and enter the email tied to your Substack or Channel 5 subscription. It shows your eligibility and allocation before you commit.",
-      "Step 4: Connect an Email and Create an Embedded Wallet: Connect an eligble Email adress, connect wallet if you have an allocation. With an embedded wallet, export your keys or move the tokens out afterwards, since access depends on that service staying up.",
-      "Step 5: Fund the Wallet With ETH on Base: A self-custody claim needs a little ETH on Base for gas. Buy ETH on Bybit and withdraw straight to Base, or move some across from another network using the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
-      "Step 6: Claim Within the 30-Day Window: Sign the claim transaction and confirm the tokens arrive. Read what you sign. A legitimate claim never asks for a seed phrase and never asks you to send funds first.",
-      "Step 7: Check Your Exchange for the TRUMP Loss Share: If you qualify through TRUMP losses, watch announcements from the exchange or app where you traded. Each venue sets its own rules, so allocations vary and some may sit out."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://laptoptoken.com",
-    "x": "https://x.com/HunterBiden"
   }
 ];
