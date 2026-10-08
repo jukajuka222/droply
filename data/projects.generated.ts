@@ -4,6 +4,36 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "perptools",
+    "name": "PERPTools",
+    "symbol": "",
+    "chain": "other",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential PERPTools airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/10/PERPTools-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/perptools/",
+    "claimUrl": "https://app.perptools.ai",
+    "difficulty": "Easy",
+    "costToFarm": "Low",
+    "actions": [
+      "Step 1: Connect Your Wallet to PERPTools: Open the PERPTools app and click \"Connect Wallet\". On first connection you sign a one-time on-chain registration that creates your trading account.",
+      "Step 2: Deposit USDC Collateral: Click \"Deposit,\" and send USDC, USDT or Solana to your trading account. There is no deposit fee and no minimum for trading. If you need USDC, you can buy it on Bybit and withdraw or move funds you already hold on another chain with the widget below. Bridge fundsSwap and bridge across 30+ chains without leaving this page.Fast routes, low fees.Bridge nowOpens an interactive bridge widgetOpen the bridge in a new tab",
+      "Step 3: Trade Perpetuals: Open the trading terminal, pick a market, and place a market or limit order. Volume and open interest both feed your weekly score. Standard markets charge 0.01% for maker orders and 0.046% for taker orders.",
+      "Step 4: Trade Spot Markets: Switch to spot and swap between listed pairs. Spot volume earns Season 2 points, and PERPTools currently charges 0% fees on spot trades.",
+      "Step 5: Fund an AI Agent in AI Arena: Open AI Arena with a Solana wallet. Agents accept USDC only, and you have two ways in: Create your own agent: set its risk and leverage limits, describe the strategy, then deposit Deposit into an existing agent after checking its PnL and trade history Agent trading and agent deposits both earn points. Creating an agent without funding it earns nothing. Each withdrawal from an agent costs 1 USDC and can take up to 24 hours.",
+      "Step 6: Share Your Referral Link: Copy your personal link from the Referral page. You receive points equal to 10% of what your referred users earn, plus a base 10% share of their trading fees paid in USDC.",
+      "Step 7: Check Your Weekly Points: Visit the Points page after each Friday distribution to see your allocation and rank."
+    ],
+    "telegram": "https://t.me/PERPTools_DEX",
+    "discord": "https://discord.gg/perptools",
+    "website": "https://perptools.ai",
+    "x": "https://x.com/perptools"
+  },
+  {
+    "id": 2,
     "slug": "titan-exchange",
     "name": "Titan Exchange",
     "symbol": "",
@@ -31,7 +61,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/TitanExchange_"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "tastyco",
     "name": "TastyCo",
     "symbol": "TASTY",
@@ -66,7 +96,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/tastyco_io"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "raycash",
     "name": "Raycash",
     "symbol": "",
@@ -100,7 +130,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/raycashxyz"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "rwaperp",
     "name": "RWAPerp",
     "symbol": "",
@@ -135,7 +165,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rwaperp"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "synthra",
     "name": "Synthra",
     "symbol": "SYN",
@@ -164,7 +194,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/synthra_finance"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -197,7 +227,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -225,7 +255,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -260,7 +290,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -294,7 +324,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -324,7 +354,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -357,7 +387,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -387,7 +417,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -417,7 +447,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -448,7 +478,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
@@ -479,7 +509,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -511,7 +541,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/BlackboardFi"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "acepyr",
     "name": "Acepyr",
     "symbol": "$ACEPYR",
@@ -540,39 +570,5 @@ export const generatedProjects: Project[] = [
     "discord": "https://discord.gg/acepyr",
     "website": "https://acepyr.com",
     "x": "https://x.com/acepyr"
-  },
-  {
-    "id": 18,
-    "slug": "ammora",
-    "name": "Ammora",
-    "symbol": "",
-    "chain": "other",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Ammora airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Ammora-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/ammora/",
-    "claimUrl": "https://ammora.org",
-    "difficulty": "Beginner",
-    "costToFarm": "Free",
-    "requirements": [
-      "Twitter / X"
-    ],
-    "actions": [
-      "Step 1: Add GIWA Sepolia to your wallet: Open MetaMask or another EVM wallet and add GIWA Sepolia, chain ID 91342.",
-      "Step 2: Claim GIWA Sepolia test ETH: Request test ETH from the Lambda256 faucet linked on Ammora\\u2019s mission page. The liquidity mission has a 0.001 ETH minimum and gas on GIWA is negligible, so you need very little.",
-      "Step 3: Join the Ammora waitlist: Go to the Ammora waitlist, connect your wallet, sign the message and register an email. Every mission stays locked until this is done, and the wallet you use will be publicly tied to the leaderboard.",
-      "Step 4: Follow @AmmoraHQ on X: Follow the official Ammora account from the X account you want credited, then return to the dashboard to verify for 100 AP.",
-      "Step 5: Retweet the pinned post: Repost the pinned campaign post from the same X account for another 100 AP.",
-      "Step 6: Publish the daily X post: The dashboard fills in the post text for you, so this takes seconds. At 200 AP it is the highest paying repeatable mission.",
-      "Step 7: Supply test ETH liquidity: Press Supply on the daily liquidity mission and deposit at least 0.001 GIWA Sepolia test ETH into the Ammora vault. Each verified supply pays 50 AP. Repeat it daily.",
-      "Step 8: Clear the Launch Week bonus: Complete all five missions once during Launch Week, meaning joining, following, retweeting, posting and supplying. It is the largest single chunk of points available and it disappears when the window closes.",
-      "Step 9: Share your referral link: Open the referral tab on the waitlist page and copy your link. Each signup credits 200 AP up to a cap of five, so 1,000 AP is on the table."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "website": "https://ammora.org",
-    "x": "https://x.com/AmmoraHQ"
   }
 ];
