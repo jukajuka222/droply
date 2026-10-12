@@ -4,6 +4,38 @@ import type { Project } from "./projects";
 export const generatedProjects: Project[] = [
   {
     "id": 1,
+    "slug": "nous-research",
+    "name": "Nous Research",
+    "symbol": "",
+    "chain": "Solana",
+    "event": "Airdrop",
+    "status": "Live",
+    "date": "",
+    "description": "Looking for a potential Nous Research airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
+    "logo": "https://airdrops.io/wp-content/uploads/2026/10/Nous-Research-logo.jpg.webp",
+    "source": "Airdrops.io",
+    "sourceUrl": "https://airdrops.io/nous-research/",
+    "claimUrl": "https://hermes-agent.nousresearch.com",
+    "difficulty": "Beginner",
+    "costToFarm": "Low",
+    "requirements": [
+      "Email"
+    ],
+    "actions": [
+      "Step 1: Create a Nous Portal Account: Go to the Nous Portal and sign up. The Portal gives you chat and API access to Hermes and other models. Paid usage runs on prepaid credits, with top-ups starting around $10, which you spend through API keys.",
+      "Step 2: Install Hermes Agent: Download Hermes Agent for Mac, Windows or Linux, or install it from the terminal. Sign in with your Portal account to run it on Portal models, then give it actual work so it builds skills and memory over time.",
+      "Step 3: Join the Nous Research Discord: Join the Nous Research Discord. Helping other members, sharing what you build with Hermes and taking part in discussions is how contributors get noticed there.",
+      "Step 4: Contribute to the Psyche Codebase: Open the Psyche GitHub repository and look through the open issues. Bug fixes, documentation and small improvements all count. If you don\\u2019t write code, test new builds and file clear bug reports.",
+      "Step 5: Check the Psyche Mining Pool: Visit the Psyche mining pool page for the current training run. The team presents the pool as the way to back a run without operating hardware, but it is full right now. When it reopens or a new pool launches, you can join.",
+      "Step 6: Prepare for Psyche Compute Access: Psyche\\u2019s testnet is closed to new nodes, and running a client currently takes data-center-grade GPUs. Read the Psyche docs, set up a Solana keypair and watch for the team to admit more nodes and lower the hardware requirements."
+    ],
+    "telegram": "https://t.me/airdrops_io",
+    "discord": "https://discord.gg/nousresearch",
+    "website": "https://nousresearch.com",
+    "x": "https://x.com/NousResearch"
+  },
+  {
+    "id": 2,
     "slug": "perptools",
     "name": "PERPTools",
     "symbol": "",
@@ -33,7 +65,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/perptools"
   },
   {
-    "id": 2,
+    "id": 3,
     "slug": "titan-exchange",
     "name": "Titan Exchange",
     "symbol": "",
@@ -61,7 +93,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/TitanExchange_"
   },
   {
-    "id": 3,
+    "id": 4,
     "slug": "tastyco",
     "name": "TastyCo",
     "symbol": "TASTY",
@@ -96,7 +128,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/tastyco_io"
   },
   {
-    "id": 4,
+    "id": 5,
     "slug": "raycash",
     "name": "Raycash",
     "symbol": "",
@@ -130,7 +162,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/raycashxyz"
   },
   {
-    "id": 5,
+    "id": 6,
     "slug": "rwaperp",
     "name": "RWAPerp",
     "symbol": "",
@@ -165,7 +197,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/rwaperp"
   },
   {
-    "id": 6,
+    "id": 7,
     "slug": "synthra",
     "name": "Synthra",
     "symbol": "SYN",
@@ -194,7 +226,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/synthra_finance"
   },
   {
-    "id": 7,
+    "id": 8,
     "slug": "mindgames",
     "name": "MindGames",
     "symbol": "",
@@ -227,7 +259,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/MindGames_AI"
   },
   {
-    "id": 8,
+    "id": 9,
     "slug": "czr",
     "name": "CZR",
     "symbol": "CZR",
@@ -255,7 +287,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/czrexchange"
   },
   {
-    "id": 9,
+    "id": 10,
     "slug": "powerx-onewallet",
     "name": "PowerX OneWallet",
     "symbol": "PX1",
@@ -290,7 +322,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/Powerxonewallet"
   },
   {
-    "id": 10,
+    "id": 11,
     "slug": "memebook",
     "name": "Memebook",
     "symbol": "MBK",
@@ -324,7 +356,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/memebookapp"
   },
   {
-    "id": 11,
+    "id": 12,
     "slug": "kryvora-network",
     "name": "Kryvora Network",
     "symbol": "KRV",
@@ -354,7 +386,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/KryvoraNetwork"
   },
   {
-    "id": 12,
+    "id": 13,
     "slug": "vibe-vibe",
     "name": "Vibe Vibe",
     "symbol": "",
@@ -387,7 +419,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/vibevibefun"
   },
   {
-    "id": 13,
+    "id": 14,
     "slug": "baibai",
     "name": "BaiBai",
     "symbol": "",
@@ -417,7 +449,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/baibai_cx"
   },
   {
-    "id": 14,
+    "id": 15,
     "slug": "fables",
     "name": "Fables",
     "symbol": "PROLOGUE",
@@ -447,7 +479,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/fablesfi"
   },
   {
-    "id": 15,
+    "id": 16,
     "slug": "wick",
     "name": "Wick",
     "symbol": "WICK",
@@ -478,13 +510,13 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/wick_xyz"
   },
   {
-    "id": 16,
+    "id": 17,
     "slug": "worldie",
     "name": "Worldie",
     "symbol": "WORLDIE",
     "chain": "Robinhood",
     "event": "Airdrop",
-    "status": "Live",
+    "status": "Potential",
     "date": "",
     "description": "Looking for a potential Worldie airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
     "logo": "https://airdrops.io/wp-content/uploads/2026/09/Worldie-logo.jpg.webp",
@@ -509,7 +541,7 @@ export const generatedProjects: Project[] = [
     "x": "https://x.com/worldiedotworld"
   },
   {
-    "id": 17,
+    "id": 18,
     "slug": "blackboard",
     "name": "Blackboard",
     "symbol": "",
@@ -539,36 +571,5 @@ export const generatedProjects: Project[] = [
     "telegram": "https://t.me/blackboard_official",
     "website": "https://blackboard.fi",
     "x": "https://x.com/BlackboardFi"
-  },
-  {
-    "id": 18,
-    "slug": "acepyr",
-    "name": "Acepyr",
-    "symbol": "$ACEPYR",
-    "chain": "Base",
-    "event": "Airdrop",
-    "status": "Live",
-    "date": "",
-    "description": "Looking for a potential Acepyr airdrop? Follow our step-by-step guide to improve your chances if they launch a retroactive airdrop.",
-    "logo": "https://airdrops.io/wp-content/uploads/2026/09/Acepyr-logo.jpg.webp",
-    "source": "Airdrops.io",
-    "sourceUrl": "https://airdrops.io/acepyr/",
-    "claimUrl": "https://acepyr.com",
-    "difficulty": "Easy",
-    "costToFarm": "Free",
-    "actions": [
-      "Step 1: Create Your Acepyr Account: Sign up at Acepyr with an email and password, entering referral code PW34SD3C2J during registration. Codes only count when applied at signup. Verify your email to activate the account.",
-      "Step 2: Accept the Legal Documents and Complete Onboarding: First login walks you through the Terms of Service, Privacy Policy and Testnet Points Notice, then the onboarding survey. Those steps plus your first sign-in pay 300 testnet $ACEPYR.",
-      "Step 3: Link a Wallet You Control: In Settings, link a wallet by signing a message; a pasted address does not qualify. One address links to one account permanently, and linking pays 500 testnet $ACEPYR.",
-      "Step 4: Join the Mainnet Waitlist: The most productive click on the platform. Joining needs a proven wallet holding at least the current minimum, now $10, read live across Base, Ethereum, Arbitrum, Optimism, Polygon and BSC. Native coins and major stablecoins count, and nothing is sent to Acepyr, so balances you already hold for Base, Arbitrum or Optimism farming clear the check. Joining pays 1,000 testnet $ACEPYR, puts the first 10,000 qualifying accounts in line for $5 at launch, and activates whoever referred you. Short of th\\u2026",
-      "Step 5: Trade the Live Up or Down Markets: Take Up or Down on a five-minute window and let the price feed settle it. Three first-time achievements sit here: Open your first position: 250 testnet $ACEPYR Place your first limit order: 250 testnet $ACEPYR Close your first profitable position: 300 testnet $ACEPYR",
-      "Step 6: Enter the Weekly Tournament: Entry is free and individual, with no ticket and no minimum balance. One settled trade that week makes you valid and earns a share of the 10,000 testnet $ACEPYR pool.",
-      "Step 7: Build a Sign-In Streak: The streak pays at five rungs: 50 at two days, 100 at three, 300 at seven, 500 at fourteen and 1,000 at thirty. Each rung banks permanently.",
-      "Step 8: Generate Your Referral Code: Open Profile, then Referrals. Codes reset every month and points do not carry over."
-    ],
-    "telegram": "https://t.me/airdrops_io",
-    "discord": "https://discord.gg/acepyr",
-    "website": "https://acepyr.com",
-    "x": "https://x.com/acepyr"
   }
 ];
